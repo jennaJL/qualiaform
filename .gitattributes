@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep every file byte-for-byte: the hash checks depend on exact line endings
+* -text
