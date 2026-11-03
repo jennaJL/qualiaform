@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "adapter_sha256": "2bac3e1a2a27d09c63ab55ff9c5027c06d0d28b9a6e72fd0846111c6384d6129",
+  "saved_tensors": 16,
+  "saved_parameters": 45056,
+  "nonzero_lora_B_tensors": 8,
+  "note": "LoRA B normally initializes to zero; all 8 saved B tensors contain nonzero learned values."
+}

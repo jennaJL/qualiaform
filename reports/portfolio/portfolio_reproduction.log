@@ -1,0 +1,7 @@
+linear_1729 dev_macro_f1 0.5322245322245323 threshold 0.665
+linear_1730 dev_macro_f1 0.5322245322245323 threshold 0.68
+linear_1731 dev_macro_f1 0.5322245322245323 threshold 0.6950000000000001
+mlp_1729 dev_macro_f1 0.5799642099681867 threshold 0.125
+mlp_1730 dev_macro_f1 0.5651850750706109 threshold 0.7000000000000001
+mlp_1731 dev_macro_f1 0.542883040570107 threshold 0.15
+BENCHMARK COMPLETE mlp_1729 {'n': 913, 'accuracy': 0.9441401971522454, 'balanced_accuracy': 0.5419087676697598, 'macro_f1': 0.5382166552616703, 'per_class': {'BN': {'precision': 0.9739229024943311, 'recall': 0.9684329199549042, 'f1': 0.9711701526286037, 'support': 887}, 'YI_CL_N': {'precision': 0.0967741935483871, 'recall': 0.11538461538461539, 'f1': 0.10526315789473684, 'support': 26}}, 'confusion_matrix': {'BN': {'BN': 859, 'YI_CL_N': 28, 'INVALID': 0}, 'YI_CL_N': {'BN': 23, 'YI_CL_N': 3, 'INVALID': 0}}, 'invalid': 0, 'metric_policy': 'zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent'}

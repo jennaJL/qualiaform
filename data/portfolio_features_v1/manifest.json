@@ -1,0 +1,11 @@
+{
+  "count": 9153,
+  "dataset_sha256": "0722cce010fd38d4761b766e5f78d9d7880bbe606f28f5b4f3d6899142728549",
+  "dimensions": 384,
+  "elapsed_seconds": 71.6653312080307,
+  "encoder_manifest_sha256": "c65154728e150ad631073c797a6ec873f32f41c4d325dbdea430b82fa0132ed4",
+  "features_sha256": "7df4a7721869ae0d8b621f6872c365b3c75051f542726bb9ad30228a7fdeb0b4",
+  "label_fields_used": false,
+  "protocol_sha256": "5308132af5d627ccbf04cf77f687eb21f414c370f0779144883b77838ac5359c",
+  "truncated_inputs": 16
+}

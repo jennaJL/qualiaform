@@ -1,0 +1,27 @@
+candidate_id,sentence,reference_observed_form,prediction,predicted_typicality,predicted_qualia,flags,error_type,reviewer,review_notes,indefinite_gold
+test:test-s106:12,程序性给付是在要求国家必须提供一套制度，例如考试制度和选举制度等，其也与正当法律程序条款的要求有关。,YI_CL_N,BN,typical,NONE,,unreviewed,,,unavailable
+test:test-s110:15,在报复的过程中，报复者会产生一种罪恶的快感。,YI_CL_N,BN,typical,NONE,has_nmod,unreviewed,,,unavailable
+test:test-s128:7,人们建造了一个纪念公园，并且为受害者放置了纪念石凳。,YI_CL_N,BN,typical,NONE,has_nmod,unreviewed,,,unavailable
+test:test-s141:13,然后推杆就会推出所有的铸件，由于一个模具内可能会有多个模腔，所以每次铸造过程中可能会产生多个铸件。,YI_CL_N,BN,typical,NONE,,unreviewed,,,unavailable
+test:test-s144:7,在雇用一位法语向导后，旅行者及其随从就前往巴黎。,YI_CL_N,BN,atypical,NONE,has_nmod|contains_proper_name,unreviewed,,,unavailable
+test:test-s151:18,后来，夏志明被伯明翰邀请接受测试，他参与了一场预备组赛事后，得知不会获得合约后决定于英国停学，于同年12月返回香港跟随杰志参与操练。,YI_CL_N,BN,atypical,NONE,has_nmod,unreviewed,,,unavailable
+test:test-s205:15,从此大统华便完全成为一间由加拿大资金经营的本地公司。,YI_CL_N,BN,typical,NONE,has_acl|has_nmod|contains_proper_name,unreviewed,,,unavailable
+test:test-s261:18,除此之外，天津市河东区还管辖位于河北省涉县的一块飞地，即天津铁厂街道。,YI_CL_N,BN,typical,NONE,has_acl|contains_proper_name,unreviewed,,,unavailable
+test:test-s267:17,伟是一名国军空军飞行少尉，是来自于一个显赫家族的二少爷。,YI_CL_N,BN,atypical,NONE,has_amod,unreviewed,,,unavailable
+test:test-s320:20,古代，奥塞提亚语曾采用希腊字母拼写，现代则使用一套改良过的西里尔字母。,YI_CL_N,BN,typical,NONE,has_acl|has_nmod|contains_proper_name,unreviewed,,,unavailable
+test:test-s327:12,念完小学和初中后，辛德勒进入一所技校学习，但于1924年因伪造成绩被开除。,YI_CL_N,BN,typical,NONE,,unreviewed,,,unavailable
+test:test-s329:20,南非之前的国旗（1927-1994）中也有一支直挂的奥兰治自由邦国旗，就在它中间的白色条纹里。,YI_CL_N,BN,typical,NONE,has_acl|has_nmod|contains_proper_name,unreviewed,,,unavailable
+test:test-s331:16,史书上唯一有记载的他的事迹是镇压一起农奴的动乱。,YI_CL_N,BN,atypical,NONE,has_nmod,unreviewed,,,unavailable
+test:test-s334:39,每段介绍两个无厘头的新闻后，方芳芳与巴戈就感谢观众收看〈新闻炮〉，新闻摄影棚灯光调暗，巴戈仍然与方芳芳进行一小段对话；跟第一段短剧一样，有时候巴戈又会被方芳芳打一巴掌。,YI_CL_N,BN,atypical,NONE,,unreviewed,,,unavailable
+test:test-s345:11,在1963年，他们找到一个乡村小酒馆并在加泰隆尼亚期间作为他们的家和工作室。,YI_CL_N,BN,atypical,NONE,has_nmod,unreviewed,,,unavailable
+test:test-s351:27,在2006年时，古生物学家根据在阿尔及利亚发现的始新世晚期的化石，命名了一个最新的种：Moeritherium chehbeurameuri。,YI_CL_N,BN,typical,NONE,has_amod|has_appos,unreviewed,,,unavailable
+test:test-s352:30,于1984年，查吉特（Sankar Chatterjee）发现了化石，他于1991年指这些化石属于一种比始祖鸟更为古老的鸟类。,YI_CL_N,BN,typical,NONE,has_amod,unreviewed,,,unavailable
+test:test-s366:16,回到加利福尼亚州后，他由于支持了一场违反中立法的战争而遭到法庭审判。,YI_CL_N,BN,atypical,NONE,has_acl,unreviewed,,,unavailable
+test:test-s373:13,虽然俾斯麦说他和威廉的工作关系是一个臣子对他的长官尽忠，实际上俾斯麦拿着管理内政和外交的实权。,YI_CL_N,BN,atypical,NONE,,unreviewed,,,unavailable
+test:test-s446:24,然而再回到伦敦的暗房冲洗时，工作人员的失误毁掉了绝大多数底片，经过一番努力，抢救出了其中的11张。,YI_CL_N,BN,atypical,NONE,,unreviewed,,,unavailable
+test:test-s44:30,1941年，一些反法西斯的社会党和民主党成员再度进入圣马利诺大议会，他们秘密组建了一个反法西斯的政治运动，这个运动越来越严密、壮大，到1943年时已经成为一支可观的政治力量。,YI_CL_N,BN,typical,NONE,has_acl|has_nmod|contains_proper_name,unreviewed,,,unavailable
+test:test-s44:52,1941年，一些反法西斯的社会党和民主党成员再度进入圣马利诺大议会，他们秘密组建了一个反法西斯的政治运动，这个运动越来越严密、壮大，到1943年时已经成为一支可观的政治力量。,YI_CL_N,BN,typical,NONE,has_nmod|has_amod,unreviewed,,,unavailable
+test:test-s490:16,宫城因为自负的性格，曾经与三井寿有过一段私人恩怨。,YI_CL_N,BN,atypical,NONE,has_amod,unreviewed,,,unavailable
+test:test-s63:32,化学中的场效应（Field effect，记作F）是指通过空间的分子内静电作用，即某取代基在空间产生一个电场，它对另一处的反应中心发生影响。,YI_CL_N,BN,typical,NONE,,unreviewed,,,unavailable
+test:test-s76:13,而埃姆登号的残骸在1950年被一家日本公司打捞上来作废铁处理，但仍有部分残骸未被打捞上来。,YI_CL_N,BN,atypical,NONE,has_nmod|contains_proper_name,unreviewed,,,unavailable
+test:test-s82:8,几个月后的一次采访，艾米说到：“如果我们没有变化的话，是没法做出第二张专辑的。”,YI_CL_N,BN,atypical,NONE,has_nmod,unreviewed,,,unavailable

@@ -1,0 +1,17 @@
+{
+  "code_sha256": "b203e7da32d9dac646852c1816e8fbd47ec37293ef30806d5371268cb7b657e1",
+  "corpus_release": "unknown; exact uploaded bytes preserved",
+  "created_date": "2026-10-07",
+  "input_sha256": {
+    "zh_gsdsimp-ud-dev.conllu": "d03f1eeb93b16071bfbbe6c76b971554be87c9a2307b3f3a820dd7c07f73fb63"
+  },
+  "label_status": "observed form, not indefinite gold",
+  "output_sha256": {
+    "candidates.csv": "a671af11cd094234df1841bff5fed01c146f6d33900e70d4e500482ace4c9466",
+    "candidates.jsonl": "aa5dc73e76ed84a3f4dcdf0ea69a13dc3e4fbeed8adf760efd4bffa5e779a866",
+    "statistics.json": "314db8dcb69f01ea89f9e08f8bef1fad8b2509f29831f931901d478832d69a8f"
+  },
+  "python": "3.14.0",
+  "sampling": "minority-first dev pilot, 40",
+  "version": "extract-v1.0.0"
+}

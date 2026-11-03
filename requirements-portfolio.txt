@@ -1,0 +1,11 @@
+# Versions actually exercised on macOS arm64 / Python 3.12.
+# Platform-specific transitive lock is recorded separately.
+torch==2.9.1
+transformers==4.57.3
+peft==0.18.0
+safetensors==0.8.0
+numpy==2.5.3
+scikit-learn==1.7.2
+fastapi==0.119.1
+uvicorn==0.38.0
+httpx==0.28.1

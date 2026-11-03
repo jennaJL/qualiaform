@@ -1,0 +1,249 @@
+{
+  "fewshot": "UD train + LLM-assisted provisional semantic annotations, not Part1 gold",
+  "reference": "extracted observed form, not expert indefinite gold",
+  "results": [
+    {
+      "condition": "Direct zero",
+      "metrics": {
+        "accuracy": 0.9715224534501643,
+        "balanced_accuracy": 0.5,
+        "confusion_matrix": {
+          "BN": {
+            "BN": 887,
+            "INVALID": 0,
+            "YI_CL_N": 0
+          },
+          "YI_CL_N": {
+            "BN": 26,
+            "INVALID": 0,
+            "YI_CL_N": 0
+          }
+        },
+        "invalid": 0,
+        "macro_f1": 0.49277777777777776,
+        "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+        "n": 913,
+        "per_class": {
+          "BN": {
+            "f1": 0.9855555555555555,
+            "precision": 0.9715224534501643,
+            "recall": 1.0,
+            "support": 887
+          },
+          "YI_CL_N": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 26
+          }
+        }
+      },
+      "prediction_counts": {
+        "BN": 913
+      },
+      "semantic_counts": null
+    },
+    {
+      "condition": "Direct corpus few",
+      "metrics": {
+        "accuracy": 0.9704271631982475,
+        "balanced_accuracy": 0.49943630214205187,
+        "confusion_matrix": {
+          "BN": {
+            "BN": 886,
+            "INVALID": 0,
+            "YI_CL_N": 1
+          },
+          "YI_CL_N": {
+            "BN": 26,
+            "INVALID": 0,
+            "YI_CL_N": 0
+          }
+        },
+        "invalid": 0,
+        "macro_f1": 0.49249583101723177,
+        "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+        "n": 913,
+        "per_class": {
+          "BN": {
+            "f1": 0.9849916620344635,
+            "precision": 0.9714912280701754,
+            "recall": 0.9988726042841037,
+            "support": 887
+          },
+          "YI_CL_N": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 26
+          }
+        }
+      },
+      "prediction_counts": {
+        "BN": 912,
+        "YI_CL_N": 1
+      },
+      "semantic_counts": null
+    },
+    {
+      "condition": "Structured zero",
+      "metrics": {
+        "accuracy": 0.9715224534501643,
+        "balanced_accuracy": 0.5,
+        "confusion_matrix": {
+          "BN": {
+            "BN": 887,
+            "INVALID": 0,
+            "YI_CL_N": 0
+          },
+          "YI_CL_N": {
+            "BN": 26,
+            "INVALID": 0,
+            "YI_CL_N": 0
+          }
+        },
+        "invalid": 0,
+        "macro_f1": 0.49277777777777776,
+        "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+        "n": 913,
+        "per_class": {
+          "BN": {
+            "f1": 0.9855555555555555,
+            "precision": 0.9715224534501643,
+            "recall": 1.0,
+            "support": 887
+          },
+          "YI_CL_N": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 26
+          }
+        }
+      },
+      "prediction_counts": {
+        "BN": 913
+      },
+      "semantic_counts": {
+        "qualia": {
+          "NONE": 913
+        },
+        "typicality": {
+          "atypical": 913
+        }
+      }
+    },
+    {
+      "condition": "Structured corpus few",
+      "metrics": {
+        "accuracy": 0.9715224534501643,
+        "balanced_accuracy": 0.5,
+        "confusion_matrix": {
+          "BN": {
+            "BN": 887,
+            "INVALID": 0,
+            "YI_CL_N": 0
+          },
+          "YI_CL_N": {
+            "BN": 26,
+            "INVALID": 0,
+            "YI_CL_N": 0
+          }
+        },
+        "invalid": 0,
+        "macro_f1": 0.49277777777777776,
+        "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+        "n": 913,
+        "per_class": {
+          "BN": {
+            "f1": 0.9855555555555555,
+            "precision": 0.9715224534501643,
+            "recall": 1.0,
+            "support": 887
+          },
+          "YI_CL_N": {
+            "f1": 0.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "support": 26
+          }
+        }
+      },
+      "prediction_counts": {
+        "BN": 913
+      },
+      "semantic_counts": {
+        "qualia": {
+          "NONE": 913
+        },
+        "typicality": {
+          "atypical": 426,
+          "typical": 463,
+          "uncertain": 24
+        }
+      }
+    },
+    {
+      "condition": "LoRA direct",
+      "metrics": {
+        "accuracy": 0.13362541073384446,
+        "balanced_accuracy": 0.5167808516173793,
+        "confusion_matrix": {
+          "BN": {
+            "BN": 98,
+            "INVALID": 0,
+            "YI_CL_N": 789
+          },
+          "YI_CL_N": {
+            "BN": 2,
+            "INVALID": 0,
+            "YI_CL_N": 24
+          }
+        },
+        "invalid": 0,
+        "macro_f1": 0.1278962628593648,
+        "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+        "n": 913,
+        "per_class": {
+          "BN": {
+            "f1": 0.19858156028368792,
+            "precision": 0.98,
+            "recall": 0.1104847801578354,
+            "support": 887
+          },
+          "YI_CL_N": {
+            "f1": 0.05721096543504171,
+            "precision": 0.02952029520295203,
+            "recall": 0.9230769230769231,
+            "support": 26
+          }
+        }
+      },
+      "prediction_counts": {
+        "BN": 100,
+        "YI_CL_N": 813
+      },
+      "semantic_counts": null
+    }
+  ],
+  "training": {
+    "actual_weight_updates": true,
+    "adapter_sha256": "2bac3e1a2a27d09c63ab55ff9c5027c06d0d28b9a6e72fd0846111c6384d6129",
+    "changed_parameter_tensors": 16,
+    "code_sha256": "a8f104d6151c457c535fbf449843b636b735acf96413f233e1bdd6a6ca20d522",
+    "elapsed_seconds": 82.61015345901251,
+    "model_manifest_sha256": "e60ba23141a8048cb03ed9500986f09486524e4700e8ed3eb278ad5a6c632ff3",
+    "paid_api_calls": 0,
+    "protocol_sha256": "e8b9787d8a7ec1b5d264b04062bca6c832973b12baddee312596c9fc319adefd",
+    "status": "COMPLETED",
+    "steps": 64,
+    "train_examples": 256,
+    "trainable_parameters": 45056,
+    "training_input_sha256": "f24d254f29f32177e63f8c90dc293a68600ca44c54686eb58ad84ae32e6503c0",
+    "training_reference": "weak observed-form labels, not indefinite gold",
+    "validation_examples": 40,
+    "validation_input_sha256": "ba4bf743106814fdc1a2ca75b6ac60f7d84a7bbd3273618b4e0c1ff89044122c",
+    "validation_loss_after": 0.06892668567597866,
+    "validation_loss_before": 0.6137871980667114
+  }
+}

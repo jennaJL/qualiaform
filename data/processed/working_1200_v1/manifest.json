@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "dev/BN": 104,
+    "dev/YI_CL_N": 4,
+    "test/BN": 111,
+    "test/YI_CL_N": 2,
+    "train/BN": 955,
+    "train/YI_CL_N": 24
+  },
+  "n": 1200,
+  "parent_sha256": "0722cce010fd38d4761b766e5f78d9d7880bbe606f28f5b4f3d6899142728549",
+  "selection": "smallest SHA256(sample-v1:+candidate_id); no class rebalancing; not a new split",
+  "sha256": "469efa816f051397c2ea82d2769b4917cf781871d99cdaeb3bc2872f08e5371d"
+}

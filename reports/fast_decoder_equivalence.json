@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scope": "80 dev responses; comparison before using optimized decoder on any new test condition",
+  "checks": [
+    {
+      "condition": "direct",
+      "shots": "zero",
+      "n": 20,
+      "exact_response_match": true,
+      "seconds": 9.587652125046588
+    },
+    {
+      "condition": "direct",
+      "shots": "corpus_few",
+      "n": 20,
+      "exact_response_match": true,
+      "seconds": 21.07869762496557
+    },
+    {
+      "condition": "structured",
+      "shots": "zero",
+      "n": 20,
+      "exact_response_match": true,
+      "seconds": 41.92972391692456
+    },
+    {
+      "condition": "structured",
+      "shots": "corpus_few",
+      "n": 20,
+      "exact_response_match": true,
+      "seconds": 99.14888150000479
+    }
+  ]
+}

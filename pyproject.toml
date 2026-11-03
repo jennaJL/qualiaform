@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qualiaform-part2"
+version = "3.0.0"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "jennaJL"}]
+description = "Mandarin nominal-form prediction: UD corpus extraction, PyTorch baselines, local LLM experiments and gold-set LLM annotation evaluation"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+qualiaform_part2 = ["static/*.html"]
+
+[tool.black]
+line-length = 110
+target-version = ["py310"]
+extend-exclude = "archive"
+
+[tool.ruff]
+line-length = 110
+extend-exclude = ["archive"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501", "B905"]

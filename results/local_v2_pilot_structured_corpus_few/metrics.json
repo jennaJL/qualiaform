@@ -1,0 +1,992 @@
+{
+  "execution_mode": "external",
+  "interpretation": "Agreement with extracted observed form; not indefinite-gold accuracy",
+  "overall": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 10,
+        "INVALID": 0,
+        "YI_CL_N": 0
+      },
+      "YI_CL_N": {
+        "BN": 10,
+        "INVALID": 0,
+        "YI_CL_N": 0
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.3333333333333333,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 20,
+    "per_class": {
+      "BN": {
+        "f1": 0.6666666666666666,
+        "precision": 0.5,
+        "recall": 1.0,
+        "support": 10
+      },
+      "YI_CL_N": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 10
+      }
+    }
+  },
+  "slices": {
+    "PREDICTED_qualia:NONE": {
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 10,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 10,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.3333333333333333,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 20,
+      "per_class": {
+        "BN": {
+          "f1": 0.6666666666666666,
+          "precision": 0.5,
+          "recall": 1.0,
+          "support": 10
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 10
+        }
+      }
+    },
+    "PREDICTED_typicality:atypical": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 5,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 5,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 5
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "PREDICTED_typicality:typical": {
+      "accuracy": 0.38461538461538464,
+      "balanced_accuracy": 0.5,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 5,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 8,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.2777777777777778,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 13,
+      "per_class": {
+        "BN": {
+          "f1": 0.5555555555555556,
+          "precision": 0.38461538461538464,
+          "recall": 1.0,
+          "support": 5
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 8
+        }
+      }
+    },
+    "PREDICTED_typicality:uncertain": {
+      "accuracy": 0.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 2,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.0,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 2,
+      "per_class": {
+        "BN": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 2
+        }
+      }
+    },
+    "noun_lemma:中校": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 1
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "noun_lemma:中部": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 1
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "noun_lemma:亭": {
+      "accuracy": 0.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.0,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "noun_lemma:人": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 1
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "noun_lemma:化石": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 1
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "noun_lemma:北部": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 1
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "noun_lemma:反例": {
+      "accuracy": 0.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.0,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "noun_lemma:城堡": {
+      "accuracy": 0.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.0,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "noun_lemma:女儿": {
+      "accuracy": 0.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.0,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "noun_lemma:媒体": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 1
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "noun_lemma:官话": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 1
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "noun_lemma:家庭": {
+      "accuracy": 0.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.0,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "noun_lemma:尾须": {
+      "accuracy": 0.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.0,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "noun_lemma:市区": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 1
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "noun_lemma:报告": {
+      "accuracy": 0.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.0,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "noun_lemma:温泉": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 1
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "noun_lemma:范围": {
+      "accuracy": 0.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.0,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "noun_lemma:陋卷": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 1
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "noun_lemma:雕像": {
+      "accuracy": 0.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.0,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "noun_lemma:预测": {
+      "accuracy": 0.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.0,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 1,
+      "per_class": {
+        "BN": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "relation:nsubj": {
+      "accuracy": 1.0,
+      "balanced_accuracy": null,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 4,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.5,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 4,
+      "per_class": {
+        "BN": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "support": 4
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": null,
+          "support": 0
+        }
+      }
+    },
+    "relation:obj": {
+      "accuracy": 0.35714285714285715,
+      "balanced_accuracy": 0.5,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 5,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 9,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.2631578947368421,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 14,
+      "per_class": {
+        "BN": {
+          "f1": 0.5263157894736842,
+          "precision": 0.35714285714285715,
+          "recall": 1.0,
+          "support": 5
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 9
+        }
+      }
+    },
+    "relation:obl": {
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 1,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.3333333333333333,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 2,
+      "per_class": {
+        "BN": {
+          "f1": 0.6666666666666666,
+          "precision": 0.5,
+          "recall": 1.0,
+          "support": 1
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 1
+        }
+      }
+    },
+    "source_split:dev": {
+      "accuracy": 0.5,
+      "balanced_accuracy": 0.5,
+      "confusion_matrix": {
+        "BN": {
+          "BN": 10,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        },
+        "YI_CL_N": {
+          "BN": 10,
+          "INVALID": 0,
+          "YI_CL_N": 0
+        }
+      },
+      "invalid": 0,
+      "macro_f1": 0.3333333333333333,
+      "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+      "n": 20,
+      "per_class": {
+        "BN": {
+          "f1": 0.6666666666666666,
+          "precision": 0.5,
+          "recall": 1.0,
+          "support": 10
+        },
+        "YI_CL_N": {
+          "f1": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "support": 10
+        }
+      }
+    }
+  }
+}

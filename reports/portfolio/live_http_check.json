@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "HTTP_status": 200,
+  "request_id": "587beb1f-d366-42ab-bc72-5633b2a1331b",
+  "model": "mlp_1729",
+  "label": "BN",
+  "host": "127.0.0.1",
+  "port": 8765,
+  "network_scope": "loopback only; no public deployment"
+}

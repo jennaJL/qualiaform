@@ -1,0 +1,12 @@
+{
+  "condition": "direct",
+  "generation": {
+    "max_output_tokens": 300,
+    "seed": 1729,
+    "temperature": 0
+  },
+  "prompt": "prompts/direct_v1.txt",
+  "shots": "few",
+  "split": "test",
+  "timeout_seconds": 60
+}

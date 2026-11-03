@@ -1,0 +1,37 @@
+{
+  "accuracy": 0.9715224534501643,
+  "balanced_accuracy": 0.5,
+  "confusion_matrix": {
+    "BN": {
+      "BN": 887,
+      "INVALID": 0,
+      "YI_CL_N": 0
+    },
+    "YI_CL_N": {
+      "BN": 26,
+      "INVALID": 0,
+      "YI_CL_N": 0
+    }
+  },
+  "invalid": 0,
+  "macro_f1": 0.49277777777777776,
+  "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+  "n": 913,
+  "per_class": {
+    "BN": {
+      "f1": 0.9855555555555555,
+      "precision": 0.9715224534501643,
+      "recall": 1.0,
+      "support": 887
+    },
+    "YI_CL_N": {
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "support": 26
+    }
+  },
+  "reference": "extracted observed form, not gold indefinite",
+  "status": "ACTUALLY_RUN deterministic majority baseline; NOT LLM",
+  "training_rule": "majority label in source train = BN"
+}

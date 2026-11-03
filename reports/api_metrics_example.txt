@@ -1,0 +1,6 @@
+# TYPE qualiaform_requests_total counter
+qualiaform_requests_total 24
+# TYPE qualiaform_errors_total counter
+qualiaform_errors_total 1
+# TYPE qualiaform_request_seconds_sum counter
+qualiaform_request_seconds_sum 0.259799

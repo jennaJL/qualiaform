@@ -1,0 +1,34 @@
+{
+  "backend": "local_cpu",
+  "completed_at": "2026-10-07T17:16:15.652802+00:00",
+  "config": {
+    "adapter": null,
+    "adapter_sha256": null,
+    "batch_size": 4,
+    "code_sha256": "a8f104d6151c457c535fbf449843b636b735acf96413f233e1bdd6a6ca20d522",
+    "condition": "direct",
+    "count": 20,
+    "dataset_sha256": "0722cce010fd38d4761b766e5f78d9d7880bbe606f28f5b4f3d6899142728549",
+    "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "requests_sha256": "2969fb6e49223a8ed3f292a57e63db359fd5a7ac2150346bdaa6be5928fa8dbb",
+    "shots": "corpus_few",
+    "split": "pilot"
+  },
+  "config_sha256": "497167b46f6c05bee7c7f498f21228ec696308c073d1571ef71b39f78d3a8af7",
+  "count": 20,
+  "dataset_sha256": "0722cce010fd38d4761b766e5f78d9d7880bbe606f28f5b4f3d6899142728549",
+  "demonstration_sha256": "4f2264f4fa3e93eaf2260796ea2d422b300bf390393df330e40261abab8d15e4",
+  "elapsed_this_invocation_seconds": 10.553201291942969,
+  "execution_mode": "external",
+  "files": {
+    "identity.json": "8987b2ddf077060d824aa546517cb7800ddb0c0431421f55c008ae8945cd3abd",
+    "predictions.jsonl": "d7ab327e349a193ca19adc4bf2da88a5bc3f3b5d84b4000ecf22464dd323ad2a",
+    "requests.jsonl": "34a01a345ab844b7c33d50f60d1aa36ca7c119be4fab83a0ffb701912c14071a"
+  },
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "paid_api_calls": 0,
+  "prompt_sha256": "69a7e0b71e2cec5b2a2e1ef7a0d8321f319efaea5eb163329d60eb390430ff2a",
+  "scientific_model_experiment_run": true,
+  "semantic_demo_provenance": "LLM-assisted provisional annotations on UD train, not Part1 gold"
+}

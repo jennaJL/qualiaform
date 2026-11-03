@@ -1,0 +1,274 @@
+{
+  "char_tfidf_logreg": {
+    "accuracy": 0.9616648411829135,
+    "balanced_accuracy": 0.5135937906512879,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 877,
+        "INVALID": 0,
+        "YI_CL_N": 10
+      },
+      "YI_CL_N": {
+        "BN": 25,
+        "INVALID": 0,
+        "YI_CL_N": 1
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.5172450259090842,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 913,
+    "per_class": {
+      "BN": {
+        "f1": 0.9804359977641142,
+        "precision": 0.9722838137472284,
+        "recall": 0.9887260428410372,
+        "support": 887
+      },
+      "YI_CL_N": {
+        "f1": 0.05405405405405406,
+        "precision": 0.09090909090909091,
+        "recall": 0.038461538461538464,
+        "support": 26
+      }
+    }
+  },
+  "linear_1729": {
+    "accuracy": 0.9693318729463308,
+    "balanced_accuracy": 0.49887260428410374,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 885,
+        "INVALID": 0,
+        "YI_CL_N": 2
+      },
+      "YI_CL_N": {
+        "BN": 26,
+        "INVALID": 0,
+        "YI_CL_N": 0
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.49221357063403787,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 913,
+    "per_class": {
+      "BN": {
+        "f1": 0.9844271412680757,
+        "precision": 0.9714599341383096,
+        "recall": 0.9977452085682075,
+        "support": 887
+      },
+      "YI_CL_N": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 26
+      }
+    }
+  },
+  "linear_1730": {
+    "accuracy": 0.9704271631982475,
+    "balanced_accuracy": 0.49943630214205187,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 886,
+        "INVALID": 0,
+        "YI_CL_N": 1
+      },
+      "YI_CL_N": {
+        "BN": 26,
+        "INVALID": 0,
+        "YI_CL_N": 0
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.49249583101723177,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 913,
+    "per_class": {
+      "BN": {
+        "f1": 0.9849916620344635,
+        "precision": 0.9714912280701754,
+        "recall": 0.9988726042841037,
+        "support": 887
+      },
+      "YI_CL_N": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 26
+      }
+    }
+  },
+  "linear_1731": {
+    "accuracy": 0.9660460021905805,
+    "balanced_accuracy": 0.4971815107102593,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 882,
+        "INVALID": 0,
+        "YI_CL_N": 5
+      },
+      "YI_CL_N": {
+        "BN": 26,
+        "INVALID": 0,
+        "YI_CL_N": 0
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.49136490250696385,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 913,
+    "per_class": {
+      "BN": {
+        "f1": 0.9827298050139277,
+        "precision": 0.9713656387665198,
+        "recall": 0.9943630214205186,
+        "support": 887
+      },
+      "YI_CL_N": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 26
+      }
+    }
+  },
+  "majority_BN": {
+    "accuracy": 0.9715224534501643,
+    "balanced_accuracy": 0.5,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 887,
+        "INVALID": 0,
+        "YI_CL_N": 0
+      },
+      "YI_CL_N": {
+        "BN": 26,
+        "INVALID": 0,
+        "YI_CL_N": 0
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.49277777777777776,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 913,
+    "per_class": {
+      "BN": {
+        "f1": 0.9855555555555555,
+        "precision": 0.9715224534501643,
+        "recall": 1.0,
+        "support": 887
+      },
+      "YI_CL_N": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 26
+      }
+    }
+  },
+  "mlp_1729": {
+    "accuracy": 0.9441401971522454,
+    "balanced_accuracy": 0.5419087676697598,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 859,
+        "INVALID": 0,
+        "YI_CL_N": 28
+      },
+      "YI_CL_N": {
+        "BN": 23,
+        "INVALID": 0,
+        "YI_CL_N": 3
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.5382166552616703,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 913,
+    "per_class": {
+      "BN": {
+        "f1": 0.9711701526286037,
+        "precision": 0.9739229024943311,
+        "recall": 0.9684329199549042,
+        "support": 887
+      },
+      "YI_CL_N": {
+        "f1": 0.10526315789473684,
+        "precision": 0.0967741935483871,
+        "recall": 0.11538461538461539,
+        "support": 26
+      }
+    }
+  },
+  "mlp_1730": {
+    "accuracy": 0.9627601314348302,
+    "balanced_accuracy": 0.4954904171364149,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 879,
+        "INVALID": 0,
+        "YI_CL_N": 8
+      },
+      "YI_CL_N": {
+        "BN": 26,
+        "INVALID": 0,
+        "YI_CL_N": 0
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.4905133928571429,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 913,
+    "per_class": {
+      "BN": {
+        "f1": 0.9810267857142858,
+        "precision": 0.9712707182320443,
+        "recall": 0.9909808342728298,
+        "support": 887
+      },
+      "YI_CL_N": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 26
+      }
+    }
+  },
+  "mlp_1731": {
+    "accuracy": 0.9397590361445783,
+    "balanced_accuracy": 0.5396539762379672,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 855,
+        "INVALID": 0,
+        "YI_CL_N": 32
+      },
+      "YI_CL_N": {
+        "BN": 23,
+        "INVALID": 0,
+        "YI_CL_N": 3
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.5335995913249431,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 913,
+    "per_class": {
+      "BN": {
+        "f1": 0.9688385269121812,
+        "precision": 0.9738041002277904,
+        "recall": 0.963923337091319,
+        "support": 887
+      },
+      "YI_CL_N": {
+        "f1": 0.09836065573770493,
+        "precision": 0.08571428571428572,
+        "recall": 0.11538461538461539,
+        "support": 26
+      }
+    }
+  }
+}

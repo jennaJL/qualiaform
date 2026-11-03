@@ -1,0 +1,140 @@
+mock: 913 requests; results/mock_v2_direct_zero
+{
+  "n": 913,
+  "accuracy": 0.46768893756845564,
+  "balanced_accuracy": 0.5580391986818143,
+  "macro_f1": 0.3466279891624455,
+  "per_class": {
+    "BN": {
+      "precision": 0.9785202863961814,
+      "recall": 0.46223224351747466,
+      "f1": 0.6278713629402757,
+      "support": 887
+    },
+    "YI_CL_N": {
+      "precision": 0.03441295546558704,
+      "recall": 0.6538461538461539,
+      "f1": 0.06538461538461539,
+      "support": 26
+    }
+  },
+  "confusion_matrix": {
+    "BN": {
+      "BN": 410,
+      "YI_CL_N": 477,
+      "INVALID": 0
+    },
+    "YI_CL_N": {
+      "BN": 9,
+      "YI_CL_N": 17,
+      "INVALID": 0
+    }
+  },
+  "invalid": 0,
+  "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent"
+}
+mock: 913 requests; results/mock_v2_direct_few
+{
+  "n": 913,
+  "accuracy": 0.46768893756845564,
+  "balanced_accuracy": 0.5580391986818143,
+  "macro_f1": 0.3466279891624455,
+  "per_class": {
+    "BN": {
+      "precision": 0.9785202863961814,
+      "recall": 0.46223224351747466,
+      "f1": 0.6278713629402757,
+      "support": 887
+    },
+    "YI_CL_N": {
+      "precision": 0.03441295546558704,
+      "recall": 0.6538461538461539,
+      "f1": 0.06538461538461539,
+      "support": 26
+    }
+  },
+  "confusion_matrix": {
+    "BN": {
+      "BN": 410,
+      "YI_CL_N": 477,
+      "INVALID": 0
+    },
+    "YI_CL_N": {
+      "BN": 9,
+      "YI_CL_N": 17,
+      "INVALID": 0
+    }
+  },
+  "invalid": 0,
+  "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent"
+}
+mock: 913 requests; results/mock_v2_structured_zero
+{
+  "n": 913,
+  "accuracy": 0.46768893756845564,
+  "balanced_accuracy": 0.5580391986818143,
+  "macro_f1": 0.3466279891624455,
+  "per_class": {
+    "BN": {
+      "precision": 0.9785202863961814,
+      "recall": 0.46223224351747466,
+      "f1": 0.6278713629402757,
+      "support": 887
+    },
+    "YI_CL_N": {
+      "precision": 0.03441295546558704,
+      "recall": 0.6538461538461539,
+      "f1": 0.06538461538461539,
+      "support": 26
+    }
+  },
+  "confusion_matrix": {
+    "BN": {
+      "BN": 410,
+      "YI_CL_N": 477,
+      "INVALID": 0
+    },
+    "YI_CL_N": {
+      "BN": 9,
+      "YI_CL_N": 17,
+      "INVALID": 0
+    }
+  },
+  "invalid": 0,
+  "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent"
+}
+mock: 913 requests; results/mock_v2_structured_few
+{
+  "n": 913,
+  "accuracy": 0.46768893756845564,
+  "balanced_accuracy": 0.5580391986818143,
+  "macro_f1": 0.3466279891624455,
+  "per_class": {
+    "BN": {
+      "precision": 0.9785202863961814,
+      "recall": 0.46223224351747466,
+      "f1": 0.6278713629402757,
+      "support": 887
+    },
+    "YI_CL_N": {
+      "precision": 0.03441295546558704,
+      "recall": 0.6538461538461539,
+      "f1": 0.06538461538461539,
+      "support": 26
+    }
+  },
+  "confusion_matrix": {
+    "BN": {
+      "BN": 410,
+      "YI_CL_N": 477,
+      "INVALID": 0
+    },
+    "YI_CL_N": {
+      "BN": 9,
+      "YI_CL_N": 17,
+      "INVALID": 0
+    }
+  },
+  "invalid": 0,
+  "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent"
+}

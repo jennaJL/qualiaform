@@ -1,0 +1,13 @@
+{
+  "adapter": null,
+  "adapter_sha256": null,
+  "batch_size": 4,
+  "code_sha256": "20c1c267fbe024cd1bea00463f67d390f12802d353c1dfc0bc2359fa625bf6fc",
+  "condition": "direct",
+  "count": 4,
+  "dataset_sha256": "0722cce010fd38d4761b766e5f78d9d7880bbe606f28f5b4f3d6899142728549",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "requests_sha256": "6040954cebc5ff382a7cca4489d5698cc64a520c0771294003b2276d1af20e82",
+  "shots": "zero",
+  "split": "pilot"
+}

@@ -1,0 +1,164 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+direct/zero 4/20 batch_seconds=1.5
+direct/zero 8/20 batch_seconds=1.0
+direct/zero 12/20 batch_seconds=1.1
+direct/zero 16/20 batch_seconds=1.0
+direct/zero 20/20 batch_seconds=1.0
+{
+  "n": 20,
+  "accuracy": 0.5,
+  "balanced_accuracy": 0.5,
+  "macro_f1": 0.3333333333333333,
+  "per_class": {
+    "BN": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 10
+    },
+    "YI_CL_N": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 10
+    }
+  },
+  "confusion_matrix": {
+    "BN": {
+      "BN": 10,
+      "YI_CL_N": 0,
+      "INVALID": 0
+    },
+    "YI_CL_N": {
+      "BN": 10,
+      "YI_CL_N": 0,
+      "INVALID": 0
+    }
+  },
+  "invalid": 0,
+  "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent"
+}
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+direct/corpus_few 4/20 batch_seconds=2.5
+direct/corpus_few 8/20 batch_seconds=2.1
+direct/corpus_few 12/20 batch_seconds=2.1
+direct/corpus_few 16/20 batch_seconds=1.9
+direct/corpus_few 20/20 batch_seconds=1.9
+{
+  "n": 20,
+  "accuracy": 0.5,
+  "balanced_accuracy": 0.5,
+  "macro_f1": 0.3333333333333333,
+  "per_class": {
+    "BN": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 10
+    },
+    "YI_CL_N": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 10
+    }
+  },
+  "confusion_matrix": {
+    "BN": {
+      "BN": 10,
+      "YI_CL_N": 0,
+      "INVALID": 0
+    },
+    "YI_CL_N": {
+      "BN": 10,
+      "YI_CL_N": 0,
+      "INVALID": 0
+    }
+  },
+  "invalid": 0,
+  "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent"
+}
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+structured/zero 4/20 batch_seconds=3.1
+structured/zero 8/20 batch_seconds=2.9
+structured/zero 12/20 batch_seconds=2.9
+structured/zero 16/20 batch_seconds=2.9
+structured/zero 20/20 batch_seconds=2.8
+{
+  "n": 20,
+  "accuracy": 0.5,
+  "balanced_accuracy": 0.5,
+  "macro_f1": 0.3333333333333333,
+  "per_class": {
+    "BN": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 10
+    },
+    "YI_CL_N": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 10
+    }
+  },
+  "confusion_matrix": {
+    "BN": {
+      "BN": 10,
+      "YI_CL_N": 0,
+      "INVALID": 0
+    },
+    "YI_CL_N": {
+      "BN": 10,
+      "YI_CL_N": 0,
+      "INVALID": 0
+    }
+  },
+  "invalid": 0,
+  "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent"
+}
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+structured/corpus_few 4/20 batch_seconds=4.9
+structured/corpus_few 8/20 batch_seconds=4.5
+structured/corpus_few 12/20 batch_seconds=4.6
+structured/corpus_few 16/20 batch_seconds=4.7
+structured/corpus_few 20/20 batch_seconds=5.7
+{
+  "n": 20,
+  "accuracy": 0.5,
+  "balanced_accuracy": 0.5,
+  "macro_f1": 0.3333333333333333,
+  "per_class": {
+    "BN": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 10
+    },
+    "YI_CL_N": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 10
+    }
+  },
+  "confusion_matrix": {
+    "BN": {
+      "BN": 10,
+      "YI_CL_N": 0,
+      "INVALID": 0
+    },
+    "YI_CL_N": {
+      "BN": 10,
+      "YI_CL_N": 0,
+      "INVALID": 0
+    }
+  },
+  "invalid": 0,
+  "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent"
+}

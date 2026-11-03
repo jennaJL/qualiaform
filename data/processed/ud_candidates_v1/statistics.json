@@ -1,0 +1,66 @@
+{
+  "audit": {
+    "dev": {
+      "accepted_BN": 950,
+      "accepted_YI_CL_N": 25,
+      "excluded_determination": 163,
+      "excluded_nested_determination": 66,
+      "excluded_non_verbal_argument": 1930,
+      "nouns": 3134,
+      "sentences": 500
+    },
+    "test": {
+      "accepted_BN": 887,
+      "accepted_YI_CL_N": 26,
+      "excluded_determination": 170,
+      "excluded_nested_determination": 56,
+      "excluded_non_verbal_argument": 1621,
+      "nouns": 2760,
+      "sentences": 500
+    },
+    "train": {
+      "accepted_BN": 7060,
+      "accepted_YI_CL_N": 205,
+      "excluded_determination": 1391,
+      "excluded_nested_determination": 670,
+      "excluded_non_verbal_argument": 13599,
+      "nouns": 22925,
+      "sentences": 3997
+    }
+  },
+  "by_form": {
+    "BN": 8897,
+    "YI_CL_N": 256
+  },
+  "by_split_form": {
+    "dev/BN": 950,
+    "dev/YI_CL_N": 25,
+    "test/BN": 887,
+    "test/YI_CL_N": 26,
+    "train/BN": 7060,
+    "train/YI_CL_N": 205
+  },
+  "cross_split_sentence_overlap": {
+    "dev/test": 0,
+    "train/dev": 0,
+    "train/test": 0
+  },
+  "exact_occurrence_duplicates": 0,
+  "flags": {
+    "contains_proper_name": 2196,
+    "has_acl": 908,
+    "has_amod": 922,
+    "has_appos": 388,
+    "has_conj": 549,
+    "has_nmod": 4525
+  },
+  "same_sentence_extra_occurrences": 5285,
+  "sentence_token_length": {
+    "max": 111,
+    "median": 28,
+    "min": 7
+  },
+  "total": 9153,
+  "unique_nouns": 4025,
+  "unique_sentences": 3868
+}

@@ -1,0 +1,10 @@
+.git
+__pycache__
+**/__pycache__
+*.pyc
+.venv*
+models/minilm_base
+models/base_qwen05
+.env*
+data/private
+results/real*
