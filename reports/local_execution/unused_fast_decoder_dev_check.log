@@ -1,0 +1,5 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+{'condition': 'direct', 'shots': 'zero', 'n': 20, 'exact_response_match': True, 'seconds': 9.587652125046588}
+{'condition': 'direct', 'shots': 'corpus_few', 'n': 20, 'exact_response_match': True, 'seconds': 21.07869762496557}
+{'condition': 'structured', 'shots': 'zero', 'n': 20, 'exact_response_match': True, 'seconds': 41.92972391692456}
+{'condition': 'structured', 'shots': 'corpus_few', 'n': 20, 'exact_response_match': True, 'seconds': 99.14888150000479}

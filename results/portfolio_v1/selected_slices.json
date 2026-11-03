@@ -1,0 +1,104 @@
+{
+  "contains_proper_name": {
+    "accuracy": 0.9432314410480349,
+    "balanced_accuracy": 0.6248391248391248,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 214,
+        "INVALID": 0,
+        "YI_CL_N": 8
+      },
+      "YI_CL_N": {
+        "BN": 5,
+        "INVALID": 0,
+        "YI_CL_N": 2
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.6029078297985861,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 229,
+    "per_class": {
+      "BN": {
+        "f1": 0.9705215419501134,
+        "precision": 0.9771689497716894,
+        "recall": 0.963963963963964,
+        "support": 222
+      },
+      "YI_CL_N": {
+        "f1": 0.23529411764705882,
+        "precision": 0.2,
+        "recall": 0.2857142857142857,
+        "support": 7
+      }
+    }
+  },
+  "seen_VN": {
+    "accuracy": 0.935064935064935,
+    "balanced_accuracy": 0.47368421052631576,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 72,
+        "INVALID": 0,
+        "YI_CL_N": 4
+      },
+      "YI_CL_N": {
+        "BN": 1,
+        "INVALID": 0,
+        "YI_CL_N": 0
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.48322147651006714,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 77,
+    "per_class": {
+      "BN": {
+        "f1": 0.9664429530201343,
+        "precision": 0.9863013698630136,
+        "recall": 0.9473684210526315,
+        "support": 76
+      },
+      "YI_CL_N": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 1
+      }
+    }
+  },
+  "unseen_VN": {
+    "accuracy": 0.9449760765550239,
+    "balanced_accuracy": 0.5452034525277436,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 787,
+        "INVALID": 0,
+        "YI_CL_N": 24
+      },
+      "YI_CL_N": {
+        "BN": 22,
+        "INVALID": 0,
+        "YI_CL_N": 3
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.5434947768281102,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 836,
+    "per_class": {
+      "BN": {
+        "f1": 0.971604938271605,
+        "precision": 0.9728059332509271,
+        "recall": 0.9704069050554871,
+        "support": 811
+      },
+      "YI_CL_N": {
+        "f1": 0.11538461538461538,
+        "precision": 0.1111111111111111,
+        "recall": 0.12,
+        "support": 25
+      }
+    }
+  }
+}

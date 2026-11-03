@@ -1,0 +1,28 @@
+{
+  "adapter_command": null,
+  "code_sha256": "3d9485b77adf20ae3addb9137c7d22220a94b47b7eafed5aea10c30369a218d2",
+  "config": {
+    "condition": "structured",
+    "generation": {
+      "max_output_tokens": 300,
+      "seed": 1729,
+      "temperature": 0
+    },
+    "prompt": "prompts/structured_v1.txt",
+    "shots": "few",
+    "split": "test",
+    "timeout_seconds": 60
+  },
+  "config_sha256": "45bca480fc995b65beb457362fc1187dab949f78f62eb222b8ec818b33107bdd",
+  "count": 913,
+  "dataset_sha256": "0722cce010fd38d4761b766e5f78d9d7880bbe606f28f5b4f3d6899142728549",
+  "demonstration_sha256": "2e7e08bf7b30ddfad78812dbc39508323872e7d84187ba8bfce2fe4fc1345e04",
+  "execution_mode": "mock",
+  "files": {
+    "predictions.jsonl": "b1b4b37b18a65fd7efae606bc65e4a77055ff37ece365a89cf2de7d5580a5759",
+    "requests.jsonl": "49b7fbcb24e9aa2000a0cc521b61b5d6b97d99e1d3b4101aaba875468f5a9fda"
+  },
+  "model_id": "NO_MODEL_MOCK",
+  "prompt_sha256": "adb9c941bc1f6c6106251b7b1d7f7a54150b97c07ee1ad43481090436b6eb81d",
+  "scientific_model_experiment_run": false
+}

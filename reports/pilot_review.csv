@@ -1,0 +1,41 @@
+candidate_id,observed_form,sentence,surface_review,reviewer,indefinite_gold,notes
+dev:dev-s100:13,BN,雅语和吴语融合，逐渐形成南方的江淮官话。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,南方的江淮官话为特定语言类别；非典型不定论元。
+dev:dev-s102:1,BN,市区除玄武湖外、还有莫愁湖、南湖、琵琶湖、前湖、紫霞湖、月牙湖等天然或人工湖泊。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,市区为话题/地点，可能定指；不定性待审。
+dev:dev-s103:14,BN,温泉是南京市主要的地热资源，著名的有汤山温泉、汤泉温泉、珍珠泉温泉等。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,专名温泉列表与并列；不适宜直接充当indefinite gold。
+dev:dev-s107:14,BN,有人上告说刘三吾暗嘱张信等人故意以陋卷进呈。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,以陋卷为介词性论元；BN表面合理，保留obl边界标记。
+dev:dev-s107:2,BN,有人上告说刘三吾暗嘱张信等人故意以陋卷进呈。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,有人上告中的人；表面BN，存在结构和依存分析需复核。
+dev:dev-s108:1,BN,中校威廉‧陆斯佛得（William Drayton Rutherford）是此步兵团的英勇将领之一，死于斯特拉斯堡。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,中校加人物姓名，明显特指。
+dev:dev-s109:20,BN,南坑，位于台湾北部，为三姓公溪的支流，位于新竹市香山区中部。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,香山区中部为特定地点；不是典型不定名词。
+dev:dev-s109:6,BN,南坑，位于台湾北部，为三姓公溪的支流，位于新竹市香山区中部。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,台湾北部为特定地点。
+dev:dev-s10:17,BN,他花费了许多时间来比较加拿大地质调查局博物馆中的恐龙化石。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,博物馆中的恐龙化石；有关系修饰，可能定指。
+dev:dev-s110:32,BN,2007年5月3日，中石油高调宣称冀东南堡油田油气总储量为10.2亿吨，探明储量4.05亿吨，约为30亿桶，媒体称之为“40多年来中国石油勘探最激动人心的发现”。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,媒体为集合/泛指或语境定指，需额外上下文。
+dev:dev-s110:45,BN,2007年5月3日，中石油高调宣称冀东南堡油田油气总储量为10.2亿吨，探明储量4.05亿吨，约为30亿桶，媒体称之为“40多年来中国石油勘探最激动人心的发现”。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,激动人心为固定表达，形式选择受词汇化约束。
+dev:dev-s110:9,BN,2007年5月3日，中石油高调宣称冀东南堡油田油气总储量为10.2亿吨，探明储量4.05亿吨，约为30亿桶，媒体称之为“40多年来中国石油勘探最激动人心的发现”。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,中石油为机构专名但中心词标NOUN，抽取需人工排除。
+dev:dev-s111:10,BN,“文化大革命”中各级教育行政机构陷入瘫痪，1978年后恢复发展。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,教育行政机构可能定指集合；不定性未确认。
+dev:dev-s111:12,BN,“文化大革命”中各级教育行政机构陷入瘫痪，1978年后恢复发展。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,陷入瘫痪为抽象状态/固定搭配。
+dev:dev-s111:18,BN,“文化大革命”中各级教育行政机构陷入瘫痪，1978年后恢复发展。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,恢复发展中的发展为事件名词；量化替换未必自然。
+dev:dev-s129:6,YI_CL_N,山上有一座小亭，名为浴日亭，是观望海上日出之地。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一座小亭：清晰yi+量词+名词。
+dev:dev-s12:13,YI_CL_N,但是迪士尼的公主们不会都太局限于一个范围之内了吗？,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一个范围之内：抽象边界、介词结构。
+dev:dev-s147:14,YI_CL_N,施米特于1888年生于威斯特伐里亚普勒腾贝格的一个天主教家庭。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一个天主教家庭：清晰表面结构，地名修饰。
+dev:dev-s158:9,YI_CL_N,利奥波德一世与玛格丽塔只有一个女儿：玛利亚·安东妮娅，她就是巴伐利亚的约瑟夫·斐迪南亲王之母。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,只有一个女儿：数量焦点且后接姓名同位语。
+dev:dev-s162:16,YI_CL_N,卡莱尔是拥有简洁而历史意义重大的城市，该地有一座城堡、博物馆、大教堂以及不完整的城墙。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一座城堡及其他名词并列；量词作用域需审。
+dev:dev-s196:17,YI_CL_N,身体细长而扁平，白色或黄色，没有眼睛，尾部具有一对尾须或尾铗，触角长，如念珠状。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一对尾须：成对量词和或并列，不等于单体个数。
+dev:dev-s19:26,YI_CL_N,由于这次失事原因涉及很多敏感的争议性，因此最后仍未有一个具体及统一的事故调查报告。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一个报告：在否定存在语境中。
+dev:dev-s203:19,YI_CL_N,当证明这样的数学猜想遇到困难时，数学家会趋向于寻找一个反例，以说明这个猜想是错误的。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,寻找一个反例：典型候选。
+dev:dev-s240:15,YI_CL_N,根据国际能源署（IEA）的一个在2011年的预测，在50年之内，太阳能发电站可能会产生世界上大部分电力，显著减少对环境有害的温室气体的排放。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,根据一个预测：附加语与减少的远距离依存；论元资格可疑。
+dev:dev-s270:15,YI_CL_N,科学家们最早的重建揭示出一个没有头的人形雕像。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一个人形雕像：带关系从句。
+dev:dev-s275:14,YI_CL_N,谢根荣请史树青等人鉴定一件伪造的金缕玉衣，史树青等专家认定为真品，估价24亿人民币。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一件金缕玉衣：清晰候选。
+dev:dev-s292:20,YI_CL_N,11岁的叶甫根尼·普鲁申科借居在圣彼得堡的公寓，小房间内仅有一张桌与椅子、折叠床，叶甫根尼·普鲁申科不仅要生活上学处理家务，更要面对团队中的由来已久的陋习：欺负新人。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一张桌与椅子、折叠床：并列量词作用域。
+dev:dev-s300:22,YI_CL_N,约11世纪，苯教大师贤钦鲁噶的弟子许耶罗布兴建了一座名叫“吉卡日香”的苯教寺院。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一座寺院：带命名关系从句。
+dev:dev-s312:8,YI_CL_N,校园中有一条南北向的大道将校园分成东西两部。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一条大道：存在引入后作分成的主语；依存需语境解释。
+dev:dev-s315:14,YI_CL_N,这种行为本身造成了一种对后现代理解的偏激和错位。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一种偏激和错位：种类量词与抽象名词。
+dev:dev-s397:28,YI_CL_N,哈尔滨正处于金融业加速期，其金融业的“利基市场”成为国内外银行纷纷锁定的一块肥硕蛋糕。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一块蛋糕：比喻和表语结构。
+dev:dev-s408:49,YI_CL_N,在1946年，美国本土发生了数宗残暴的私刑，其中有两名黑人男子和两名黑人妇女在乔治亚州的华尔顿县附近被杀害；另外亦有一名刚从二战战场退役的非洲裔军人遭到虐待，称为艾萨克·伍德沃德事件。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一名军人：带关系从句，被动语境。
+dev:dev-s428:36,YI_CL_N,唯心论直接相对于唯物论，后者认为世界的基本成分为物质，我们对世界之认识主要是通过物质，并将之视作为一种物质形式与过程。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一种物质形式与过程：种类量词及并列。
+dev:dev-s442:18,YI_CL_N,在这之后，他接拍了一部名为《我们是马歇尔》的电影，这部电影讲述的是大学橄榄球队中发生的故事，不过并没有获得霹雳娇娃那样的成功。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一部电影：带命名修饰。
+dev:dev-s443:12,YI_CL_N,汉密尔顿在当时被视为棒球界的一颗新星。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一颗新星：比喻及被视为结构。
+dev:dev-s44:31,YI_CL_N,为了改善中央空档的视觉效果，故借鉴中国传统城门楼的设计，设计成一个宽45米、高50米的“门洞”。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一个门洞：修饰中有45米、50米，数值不属于目标数量。
+dev:dev-s454:42,YI_CL_N,学校亦于1956年成立了香港的第一队香港红十字会青年团（Youth Unit One），其后逐渐普及于其他中学，成为香港其中一个最具规模的制服团体。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,其中一个团体：部分选取结构，不宜自动作为indefinite gold。
+dev:dev-s479:8,YI_CL_N,在南部环礁的一个灯塔小岛上居住着大量海鸟。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一个灯塔小岛上：地点存在结构。
+dev:dev-s5:28,YI_CL_N,其测试包含了美术治疗法，认知行为治疗和洞察疗法，同时给行为分析提供了一个理论性的交流平台。,plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一个交流平台：抽象/比喻但表面形式明确。
+dev:dev-s89:15,YI_CL_N,"2003年11月15日，法航协和飞机的一批剩余零部件和纪念品在巴黎佳士得拍卖行公开拍卖，有约13,000人到场竞投，共拍卖得320万欧元，部分拍卖品的成交价远超预期。",plausible_candidate,llm_assisted_spot_review_2026-10-07,NOT_ESTABLISHED,一批零部件和纪念品：集合量词与并列。

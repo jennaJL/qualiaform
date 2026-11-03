@@ -1,0 +1,2 @@
+# No third-party runtime dependencies. Tested on CPython 3.14.0.
+# PYTHONPATH=src supports offline execution without installing a build backend.

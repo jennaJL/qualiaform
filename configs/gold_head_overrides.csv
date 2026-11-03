@@ -1,0 +1,63 @@
+item_id,verb,noun,note
+QF_0007,披,斗篷,colour modifier removed
+QF_0008,披,斗篷,colour modifier removed
+QF_0010,有,儿子,adjective removed
+QF_0012,有,儿子,yi-drop (有个儿子)
+QF_0013,蓄,胡子,adjective removed
+QF_0015,杀,孩子,potential complement removed
+QF_0016,买,面包,modifiers removed
+QF_0017,学会,词,adjective removed
+QF_0020,拎,油饼,relative clause and adjective removed
+QF_0022,保持,距离,classifier 段 removed
+QF_0024,买,冰棍,modifier removed
+QF_0027,有,手表,modal 能 removed
+QF_0028,端来,白兰地,classifier 杯 removed
+QF_0029,收到,回信,potential complement 不 removed
+QF_0031,看,眼,verbal classifier construction (一眼)
+QF_0034,送,挂衣钩,recipient removed
+QF_0036,喘,气,classifier 口 and adjective removed
+QF_0040,穿,制服,classifier 身 and modifiers removed
+QF_0041,生,面孔,modifiers removed
+QF_0045,买,望远镜,modifiers removed
+QF_0046,经过,地下湖,verb restored
+QF_0048,买,锅,modifier removed
+QF_0051,递,信,recipient removed
+QF_0052,背,钱,classifier 口袋 and 满满 removed
+QF_0053,看,电视节目,modifier removed
+QF_0054,知道,巫师,negation removed
+QF_0055,买,猫头鹰,potential complement removed
+QF_0057,有,表兄,modifier removed
+QF_0063,给,巧克力蛙,recipient removed
+QF_0065,送,猫头鹰,recipient removed
+QF_0067,找到,隔间,adjective removed
+QF_0068,送,马桶圈,recipient removed
+QF_0070,穿,紧身衣,modifiers removed
+QF_0073,给,机会,recipient and adverb removed
+QF_0074,露出,洞口,locative and adjective removed
+QF_0075,露出,微笑,annotation stars removed
+QF_0079,踹,脚,verbal classifier construction (一脚)
+QF_0080,发,火柴,recipient removed
+QF_0081,看,比赛,modifier removed
+QF_0086,酿成,错,adjective removed
+QF_0088,发现,通道,modifiers removed
+QF_0090,撞上,滑翔机,modifier removed
+QF_0094,撤下,谎,idiom 弥天大谎
+QF_0095,得,分,verb–object compound 得分
+QF_0096,给,击,verbal classifier construction (一击)
+QF_0097,递,木棒,recipient and adjective removed
+QF_0099,捎来,扫帚,modifier removed
+QF_0108,画,狮子,modifiers removed
+QF_0109,登记,名单,modifier removed
+QF_0110,织,毛衣,modifiers removed
+QF_0111,抽,爆竹,modifier removed
+QF_0114,得到,毛衣,modifier removed
+QF_0117,看见,毛衣,modifiers removed
+QF_0123,有,鼻子,modifiers removed
+QF_0132,拐过,弯道,locative removed
+QF_0135,走过,树桩,verb restored
+QF_0136,收到,信件,modifier removed
+QF_0138,有,技巧,modifier removed
+QF_0139,喝,口,no lexical noun (一大口)
+QF_0140,跨,步,verbal classifier construction (一步)
+QF_0143,碰到,龙,adjective removed
+QF_0150,发,声音,potential complement and 一点儿 removed

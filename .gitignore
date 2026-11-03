@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+data/private/
+results/real*/
+*.egg-info/
+.venv-local/
+models/base_qwen05/
+.venv-portfolio/
+models/minilm_base/
+
+.ruff_cache/
+.venv-gold/
+.DS_Store

@@ -1,0 +1,34 @@
+{
+  "backend": "local_cpu",
+  "completed_at": "2026-10-07T18:16:31.958016+00:00",
+  "config": {
+    "adapter": "models/lora_cpu_v2",
+    "adapter_sha256": "2bac3e1a2a27d09c63ab55ff9c5027c06d0d28b9a6e72fd0846111c6384d6129",
+    "batch_size": 4,
+    "code_sha256": "a8f104d6151c457c535fbf449843b636b735acf96413f233e1bdd6a6ca20d522",
+    "condition": "direct",
+    "count": 913,
+    "dataset_sha256": "0722cce010fd38d4761b766e5f78d9d7880bbe606f28f5b4f3d6899142728549",
+    "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "requests_sha256": "73e08d5e4b3225f7a494e779d6db9a4538d8b3e3178e3a395f2cdb8d6e99cdf3",
+    "shots": "zero",
+    "split": "test"
+  },
+  "config_sha256": "32c815983112bc67e62f77953b901f5ea7a3b0e385a1a35a3deb1d5a8469905a",
+  "count": 913,
+  "dataset_sha256": "0722cce010fd38d4761b766e5f78d9d7880bbe606f28f5b4f3d6899142728549",
+  "demonstration_sha256": null,
+  "elapsed_this_invocation_seconds": 355.53670900000725,
+  "execution_mode": "external",
+  "files": {
+    "identity.json": "76bb5412aa681272b3712fa66225edc34cef40ee26cf70e71ef8bd67cbdd3d26",
+    "predictions.jsonl": "35901eafdb7c5e623197a5ea325ebbb837855c5bb44460be3b68da0c66ecd40a",
+    "requests.jsonl": "d3a8e791c36f641f29d0af1e66636ed01e288626c335418b686f645a915aa958"
+  },
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "paid_api_calls": 0,
+  "prompt_sha256": "69a7e0b71e2cec5b2a2e1ef7a0d8321f319efaea5eb163329d60eb390430ff2a",
+  "scientific_model_experiment_run": true,
+  "semantic_demo_provenance": null
+}

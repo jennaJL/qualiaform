@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "direct_corpus_few": "PASS: complete, real local model, correct code/request hashes, raw predictions agree, safe input fields",
+    "direct_zero": "PASS: complete, real local model, correct code/request hashes, raw predictions agree, safe input fields",
+    "lora_direct": "PASS: complete, real local model, correct code/request hashes, raw predictions agree, safe input fields",
+    "structured_corpus_few": "PASS: complete, real local model, correct code/request hashes, raw predictions agree, safe input fields",
+    "structured_zero": "PASS: complete, real local model, correct code/request hashes, raw predictions agree, safe input fields"
+  },
+  "inference_calls": 4565,
+  "paid_api_calls": 0,
+  "status": "PASS",
+  "training_weight_updates_verified": true
+}

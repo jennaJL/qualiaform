@@ -1,0 +1,46 @@
+{
+  "dev": {
+    "accuracy": 0.9384615384615385,
+    "balanced_accuracy": 0.5594736842105263,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 911,
+        "INVALID": 0,
+        "YI_CL_N": 39
+      },
+      "YI_CL_N": {
+        "BN": 21,
+        "INVALID": 0,
+        "YI_CL_N": 4
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.542883040570107,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 975,
+    "per_class": {
+      "BN": {
+        "f1": 0.9681190223166845,
+        "precision": 0.9774678111587983,
+        "recall": 0.9589473684210527,
+        "support": 950
+      },
+      "YI_CL_N": {
+        "f1": 0.11764705882352942,
+        "precision": 0.09302325581395349,
+        "recall": 0.16,
+        "support": 25
+      }
+    }
+  },
+  "dropout": 0.1,
+  "encoder_frozen": true,
+  "hidden": 128,
+  "input_dim": 384,
+  "kind": "mlp",
+  "parameters": 49538,
+  "score_interpretation": "uncalibrated YI score",
+  "seed": 1731,
+  "threshold": 0.15,
+  "weights_sha256": "22201b799a2d71afa9f750aa3aa8ba375d5cfd0c46cd29bc2fe82be7d6ca309c"
+}

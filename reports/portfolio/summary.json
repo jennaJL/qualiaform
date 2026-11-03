@@ -1,0 +1,45 @@
+{
+  "cloud_deployed": false,
+  "docker_executed": false,
+  "github_actions_executed": false,
+  "mlp_macro_f1_mean": 0.520776546481252,
+  "mlp_macro_f1_std": 0.02148213475280147,
+  "real_service_examples": 20,
+  "selected": "mlp_1729",
+  "selected_metrics": {
+    "accuracy": 0.9441401971522454,
+    "balanced_accuracy": 0.5419087676697598,
+    "confusion_matrix": {
+      "BN": {
+        "BN": 859,
+        "INVALID": 0,
+        "YI_CL_N": 28
+      },
+      "YI_CL_N": {
+        "BN": 23,
+        "INVALID": 0,
+        "YI_CL_N": 3
+      }
+    },
+    "invalid": 0,
+    "macro_f1": 0.5382166552616703,
+    "metric_policy": "zero precision/F1 for undefined denominator; balanced accuracy null if either reference class absent",
+    "n": 913,
+    "per_class": {
+      "BN": {
+        "f1": 0.9711701526286037,
+        "precision": 0.9739229024943311,
+        "recall": 0.9684329199549042,
+        "support": 887
+      },
+      "YI_CL_N": {
+        "f1": 0.10526315789473684,
+        "precision": 0.0967741935483871,
+        "recall": 0.11538461538461539,
+        "support": 26
+      }
+    }
+  },
+  "training_repeat_checks": 11,
+  "unit_tests_passed": 53
+}

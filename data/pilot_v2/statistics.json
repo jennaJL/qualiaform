@@ -1,0 +1,44 @@
+{
+  "audit": {
+    "dev": {
+      "accepted_BN": 950,
+      "accepted_YI_CL_N": 25,
+      "excluded_determination": 163,
+      "excluded_nested_determination": 66,
+      "excluded_non_verbal_argument": 1930,
+      "nouns": 3134,
+      "sentences": 500
+    }
+  },
+  "by_form": {
+    "BN": 15,
+    "YI_CL_N": 25
+  },
+  "by_split_form": {
+    "dev/BN": 15,
+    "dev/YI_CL_N": 25
+  },
+  "cross_split_sentence_overlap": {
+    "dev/test": 0,
+    "train/dev": 0,
+    "train/test": 0
+  },
+  "exact_occurrence_duplicates": 0,
+  "flags": {
+    "contains_proper_name": 14,
+    "has_acl": 11,
+    "has_amod": 2,
+    "has_appos": 2,
+    "has_conj": 7,
+    "has_nmod": 21
+  },
+  "same_sentence_extra_occurrences": 6,
+  "sentence_token_length": {
+    "max": 59,
+    "median": 25,
+    "min": 13
+  },
+  "total": 40,
+  "unique_nouns": 40,
+  "unique_sentences": 34
+}

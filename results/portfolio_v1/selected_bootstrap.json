@@ -1,0 +1,13 @@
+{
+  "balanced_accuracy_95": [
+    0.48426757016572275,
+    0.6155164021586665
+  ],
+  "interpretation": "descriptive uncertainty on this reused weak-label benchmark; not significance evidence",
+  "macro_f1_95": [
+    0.4857853196184252,
+    0.5982755129034062
+  ],
+  "resamples": 500,
+  "resampling_unit": "sentence"
+}

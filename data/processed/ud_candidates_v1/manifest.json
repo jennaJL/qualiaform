@@ -1,0 +1,19 @@
+{
+  "code_sha256": "6284fb5478bef1d4aab9a061cf725299eb1b1e8028bdad0a4ea457099d8a30eb",
+  "corpus_release": "unknown; exact uploaded bytes preserved",
+  "created_date": "2026-10-07",
+  "input_sha256": {
+    "zh_gsdsimp-ud-dev.conllu": "d03f1eeb93b16071bfbbe6c76b971554be87c9a2307b3f3a820dd7c07f73fb63",
+    "zh_gsdsimp-ud-test.conllu": "3af8046a6f32477b4d5cf3dd06bbf38682a380fe77aade3f68de97e51ab94900",
+    "zh_gsdsimp-ud-train.conllu": "956636fe612a1166e8b19e7413fee2e73d68231aca2f0455be2c616b947d629d"
+  },
+  "label_status": "observed form, not indefinite gold",
+  "output_sha256": {
+    "candidates.csv": "3a308033e5fe3ba7325b7e3e331e6abd284542989784929d56d1073dc50eb497",
+    "candidates.jsonl": "0722cce010fd38d4761b766e5f78d9d7880bbe606f28f5b4f3d6899142728549",
+    "statistics.json": "0d64a94989ee34f11da274ddaa6dae89ff22256a26cd9d844225043e5ff6a961"
+  },
+  "python": "3.14.0",
+  "sampling": "all eligible occurrences; no class rebalance",
+  "version": "extract-v1.0.0"
+}

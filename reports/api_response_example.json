@@ -1,0 +1,43 @@
+{
+  "label": "BN",
+  "yi_score_uncalibrated": 0.00014401358203031123,
+  "decision_threshold": 0.125,
+  "model_id": "mlp_1729",
+  "input_truncated": false,
+  "nearest_training_examples": [
+    {
+      "candidate_id": "train:train-s1163:24",
+      "sentence": "司马遹更讽刺杜锡说：“你这么喜欢责怪别人，为甚么会沦落得如此自作自受的境地啊？”",
+      "masked_context": "司马遹更讽刺杜锡说：“你这么喜欢责怪别人，为甚么会沦落得[TARGET_NP]啊？”",
+      "noun_lemma": "境地",
+      "verb_lemma": "沦落",
+      "relation": "obj",
+      "observed_form": "BN",
+      "cosine_similarity": 0.7836801409721375,
+      "source_split": "train"
+    },
+    {
+      "candidate_id": "train:train-s1163:14",
+      "sentence": "司马遹更讽刺杜锡说：“你这么喜欢责怪别人，为甚么会沦落得如此自作自受的境地啊？”",
+      "masked_context": "司马遹更讽刺杜锡说：“你这么喜欢责怪[TARGET_NP]，为甚么会沦落得如此自作自受的境地啊？”",
+      "noun_lemma": "别人",
+      "verb_lemma": "责怪",
+      "relation": "obj",
+      "observed_form": "BN",
+      "cosine_similarity": 0.7587773203849792,
+      "source_split": "train"
+    },
+    {
+      "candidate_id": "train:train-s720:16",
+      "sentence": "戴麟趾在任期间，却对社会严重的贪污风气未能作有效的打击。",
+      "masked_context": "戴麟趾在任期间，却对社会严重的贪污风气未能作[TARGET_NP]。",
+      "noun_lemma": "打击",
+      "verb_lemma": "作",
+      "relation": "obj",
+      "observed_form": "BN",
+      "cosine_similarity": 0.7525317668914795,
+      "source_split": "train"
+    }
+  ],
+  "notice": "Predicts extracted observed form, not indefinite eligibility. Scores are uncalibrated; expert review is required."
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": {
+    "selection.json": true,
+    "test_metrics.json": true,
+    "selected_bootstrap.json": true,
+    "selected_slices.json": true,
+    "training_history.jsonl": true,
+    "linear_1729/model.safetensors": true,
+    "mlp_1731/model.safetensors": true,
+    "mlp_1730/model.safetensors": true,
+    "mlp_1729/model.safetensors": true,
+    "linear_1730/model.safetensors": true,
+    "linear_1731/model.safetensors": true
+  },
+  "scope": "independent second CPU training run with same cached features and frozen protocol; weights and metrics byte-identical"
+}

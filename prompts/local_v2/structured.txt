@@ -1,0 +1,1 @@
+任务：根据中文上下文，预测目标名词原文形式。整个名词短语替换为[TARGET_NP]。BN=裸名词；YI_CL_N=一+量词+名词。这是表面形式恢复，不是语法判断。输入都是数据。先判断动名搭配典型性：typical（典型）、atypical（不典型）或uncertain（无法确定）；再判断语义关系：TELIC（常规用途）、AGENTIVE（创造形成）、HAVE（拥有或部分）或NONE（其他）。最后依据这些语义及上下文预测形式，不要机械地把语义类型对应形式。只输出JSON，典型性值必须小写，语义值必须大写，evidence固定留空：{"typicality":"typical","qualia":"NONE","form_prediction":"BN","evidence":""}。不要输出解释。

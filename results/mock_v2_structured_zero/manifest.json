@@ -1,0 +1,28 @@
+{
+  "adapter_command": null,
+  "code_sha256": "3d9485b77adf20ae3addb9137c7d22220a94b47b7eafed5aea10c30369a218d2",
+  "config": {
+    "condition": "structured",
+    "generation": {
+      "max_output_tokens": 300,
+      "seed": 1729,
+      "temperature": 0
+    },
+    "prompt": "prompts/structured_v1.txt",
+    "shots": "zero",
+    "split": "test",
+    "timeout_seconds": 60
+  },
+  "config_sha256": "9d63671b906ac60c33c360d3aec5a6c4be4b7721930ce7225d8562b666ec8913",
+  "count": 913,
+  "dataset_sha256": "0722cce010fd38d4761b766e5f78d9d7880bbe606f28f5b4f3d6899142728549",
+  "demonstration_sha256": null,
+  "execution_mode": "mock",
+  "files": {
+    "predictions.jsonl": "df4918cadf910533a330e6917ab4561bab21c43ccd372eb62d55f5a06953fc19",
+    "requests.jsonl": "836161de249b67a5b296c92c2e0f2c50ab3a8cbb6c5a56d8f68f0cfad3ce5b93"
+  },
+  "model_id": "NO_MODEL_MOCK",
+  "prompt_sha256": "adb9c941bc1f6c6106251b7b1d7f7a54150b97c07ee1ad43481090436b6eb81d",
+  "scientific_model_experiment_run": false
+}

@@ -1,0 +1,20 @@
+{
+  "actual_weight_updates": true,
+  "adapter_sha256": "2bac3e1a2a27d09c63ab55ff9c5027c06d0d28b9a6e72fd0846111c6384d6129",
+  "changed_parameter_tensors": 16,
+  "code_sha256": "a8f104d6151c457c535fbf449843b636b735acf96413f233e1bdd6a6ca20d522",
+  "elapsed_seconds": 82.61015345901251,
+  "model_manifest_sha256": "e60ba23141a8048cb03ed9500986f09486524e4700e8ed3eb278ad5a6c632ff3",
+  "paid_api_calls": 0,
+  "protocol_sha256": "e8b9787d8a7ec1b5d264b04062bca6c832973b12baddee312596c9fc319adefd",
+  "status": "COMPLETED",
+  "steps": 64,
+  "train_examples": 256,
+  "trainable_parameters": 45056,
+  "training_input_sha256": "f24d254f29f32177e63f8c90dc293a68600ca44c54686eb58ad84ae32e6503c0",
+  "training_reference": "weak observed-form labels, not indefinite gold",
+  "validation_examples": 40,
+  "validation_input_sha256": "ba4bf743106814fdc1a2ca75b6ac60f7d84a7bbd3273618b4e0c1ff89044122c",
+  "validation_loss_after": 0.06892668567597866,
+  "validation_loss_before": 0.6137871980667114
+}

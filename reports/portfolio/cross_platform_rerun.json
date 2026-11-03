@@ -1,0 +1,94 @@
+{
+  "purpose": "Cross-platform check of the supervised benchmark after the v3 refactor",
+  "environment": "Linux x86_64, Python 3.13, torch 2.14.1 (CPU), scikit-learn 1.7.2",
+  "original_environment": "macOS arm64, Python 3.12, torch 2.9.1",
+  "same_platform_old_vs_new_code": "byte-identical outputs (all weights, predictions, metrics) except code hash and elapsed time",
+  "selected_model": "mlp_1729 on both platforms (dev selection unchanged)",
+  "macos_original": {
+    "char_tfidf_logreg": {
+      "balanced_accuracy": 0.5135937906512879,
+      "macro_f1": 0.5172450259090842,
+      "yi_recall": 0.038461538461538464
+    },
+    "linear_1729": {
+      "balanced_accuracy": 0.49887260428410374,
+      "macro_f1": 0.49221357063403787,
+      "yi_recall": 0.0
+    },
+    "linear_1730": {
+      "balanced_accuracy": 0.49943630214205187,
+      "macro_f1": 0.49249583101723177,
+      "yi_recall": 0.0
+    },
+    "linear_1731": {
+      "balanced_accuracy": 0.4971815107102593,
+      "macro_f1": 0.49136490250696385,
+      "yi_recall": 0.0
+    },
+    "majority_BN": {
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.49277777777777776,
+      "yi_recall": 0.0
+    },
+    "mlp_1729": {
+      "balanced_accuracy": 0.5419087676697598,
+      "macro_f1": 0.5382166552616703,
+      "yi_recall": 0.11538461538461539
+    },
+    "mlp_1730": {
+      "balanced_accuracy": 0.4954904171364149,
+      "macro_f1": 0.4905133928571429,
+      "yi_recall": 0.0
+    },
+    "mlp_1731": {
+      "balanced_accuracy": 0.5396539762379672,
+      "macro_f1": 0.5335995913249431,
+      "yi_recall": 0.11538461538461539
+    }
+  },
+  "macos_original_dev_macro_f1_selected": 0.5799642099681867,
+  "linux_rerun": {
+    "char_tfidf_logreg": {
+      "balanced_accuracy": 0.5158485820830804,
+      "macro_f1": 0.521658300799405,
+      "yi_recall": 0.038461538461538464
+    },
+    "linear_1729": {
+      "balanced_accuracy": 0.49887260428410374,
+      "macro_f1": 0.49221357063403787,
+      "yi_recall": 0.0
+    },
+    "linear_1730": {
+      "balanced_accuracy": 0.49943630214205187,
+      "macro_f1": 0.49249583101723177,
+      "yi_recall": 0.0
+    },
+    "linear_1731": {
+      "balanced_accuracy": 0.4971815107102593,
+      "macro_f1": 0.49136490250696385,
+      "yi_recall": 0.0
+    },
+    "majority_BN": {
+      "balanced_accuracy": 0.5,
+      "macro_f1": 0.49277777777777776,
+      "yi_recall": 0.0
+    },
+    "mlp_1729": {
+      "balanced_accuracy": 0.546982048391293,
+      "macro_f1": 0.5506889763779528,
+      "yi_recall": 0.11538461538461539
+    },
+    "mlp_1730": {
+      "balanced_accuracy": 0.4954904171364149,
+      "macro_f1": 0.4905133928571429,
+      "yi_recall": 0.0
+    },
+    "mlp_1731": {
+      "balanced_accuracy": 0.5396539762379672,
+      "macro_f1": 0.5335995913249431,
+      "yi_recall": 0.11538461538461539
+    }
+  },
+  "linux_rerun_dev_macro_f1_selected": 0.5814652294190594,
+  "interpretation": "Linear heads and two of three MLP seeds are identical; mlp_1729 and the TF-IDF baseline move by about 0.01 macro-F1 (one or two test items), i.e. floating-point differences across platforms and library versions. Reported numbers remain the original macOS run."
+}

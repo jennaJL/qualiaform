@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "human_gold_not_fabricated": true,
+    "mock_v2_direct_few/913_complete": true,
+    "mock_v2_direct_few/no_invalid": true,
+    "mock_v2_direct_few/no_raw_target_fields": true,
+    "mock_v2_direct_few/request_hashes": true,
+    "mock_v2_direct_few/truthful_mock_status": true,
+    "mock_v2_direct_zero/913_complete": true,
+    "mock_v2_direct_zero/no_invalid": true,
+    "mock_v2_direct_zero/no_raw_target_fields": true,
+    "mock_v2_direct_zero/request_hashes": true,
+    "mock_v2_direct_zero/truthful_mock_status": true,
+    "mock_v2_structured_few/913_complete": true,
+    "mock_v2_structured_few/no_invalid": true,
+    "mock_v2_structured_few/no_raw_target_fields": true,
+    "mock_v2_structured_few/request_hashes": true,
+    "mock_v2_structured_few/truthful_mock_status": true,
+    "mock_v2_structured_zero/913_complete": true,
+    "mock_v2_structured_zero/no_invalid": true,
+    "mock_v2_structured_zero/no_raw_target_fields": true,
+    "mock_v2_structured_zero/request_hashes": true,
+    "mock_v2_structured_zero/truthful_mock_status": true,
+    "single_mask_every_row": true,
+    "unique_candidate_ids": true
+  },
+  "scope": "software/data invariants, NOT linguistic-gold validation",
+  "status": "PASS"
+}

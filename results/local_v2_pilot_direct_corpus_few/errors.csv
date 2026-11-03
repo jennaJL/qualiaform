@@ -1,0 +1,11 @@
+candidate_id,sentence,reference_observed_form,prediction,predicted_typicality,predicted_qualia,flags,error_type,reviewer,review_notes,indefinite_gold
+dev:dev-s129:6,山上有一座小亭，名为浴日亭，是观望海上日出之地。,YI_CL_N,BN,,,,unreviewed,,,unavailable
+dev:dev-s12:13,但是迪士尼的公主们不会都太局限于一个范围之内了吗？,YI_CL_N,BN,,,,unreviewed,,,unavailable
+dev:dev-s147:14,施米特于1888年生于威斯特伐里亚普勒腾贝格的一个天主教家庭。,YI_CL_N,BN,,,has_nmod|contains_proper_name,unreviewed,,,unavailable
+dev:dev-s158:9,利奥波德一世与玛格丽塔只有一个女儿：玛利亚·安东妮娅，她就是巴伐利亚的约瑟夫·斐迪南亲王之母。,YI_CL_N,BN,,,has_appos|contains_proper_name,unreviewed,,,unavailable
+dev:dev-s162:16,卡莱尔是拥有简洁而历史意义重大的城市，该地有一座城堡、博物馆、大教堂以及不完整的城墙。,YI_CL_N,BN,,,has_conj,unreviewed,,,unavailable
+dev:dev-s196:17,身体细长而扁平，白色或黄色，没有眼睛，尾部具有一对尾须或尾铗，触角长，如念珠状。,YI_CL_N,BN,,,has_conj,unreviewed,,,unavailable
+dev:dev-s19:26,由于这次失事原因涉及很多敏感的争议性，因此最后仍未有一个具体及统一的事故调查报告。,YI_CL_N,BN,,,has_nmod|has_amod,unreviewed,,,unavailable
+dev:dev-s203:19,当证明这样的数学猜想遇到困难时，数学家会趋向于寻找一个反例，以说明这个猜想是错误的。,YI_CL_N,BN,,,,unreviewed,,,unavailable
+dev:dev-s240:15,根据国际能源署（IEA）的一个在2011年的预测，在50年之内，太阳能发电站可能会产生世界上大部分电力，显著减少对环境有害的温室气体的排放。,YI_CL_N,BN,,,has_nmod,unreviewed,,,unavailable
+dev:dev-s270:15,科学家们最早的重建揭示出一个没有头的人形雕像。,YI_CL_N,BN,,,has_acl|has_nmod,unreviewed,,,unavailable

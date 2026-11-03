@@ -1,0 +1,5 @@
+{
+  "criterion": "dev macro-F1, primary seed 1729; test not consulted",
+  "dev_macro_f1": 0.5799642099681867,
+  "selected": "mlp_1729"
+}

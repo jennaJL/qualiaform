@@ -1,0 +1,296 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "QualiaForm Research API",
+    "description": "Predicts extracted observed form, not indefinite eligibility. Scores are uncalibrated; expert review is required.",
+    "version": "2.0.0"
+  },
+  "paths": {
+    "/healthz": {
+      "get": {
+        "summary": "Health",
+        "operationId": "health_healthz_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/predict": {
+      "post": {
+        "summary": "Predict",
+        "operationId": "predict_predict_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PredictInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Prediction"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/predict_batch": {
+      "post": {
+        "summary": "Predict Batch",
+        "operationId": "predict_batch_predict_batch_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BatchInput"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Prediction"
+                  },
+                  "type": "array",
+                  "title": "Response Predict Batch Predict Batch Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/benchmark": {
+      "get": {
+        "summary": "Benchmark",
+        "operationId": "benchmark_benchmark_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/metrics": {
+      "get": {
+        "summary": "Monitoring",
+        "operationId": "monitoring_metrics_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BatchInput": {
+        "properties": {
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/PredictInput"
+            },
+            "type": "array",
+            "maxItems": 16,
+            "minItems": 1,
+            "title": "Items"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "items"
+        ],
+        "title": "BatchInput"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "PredictInput": {
+        "properties": {
+          "masked_context": {
+            "type": "string",
+            "maxLength": 1200,
+            "minLength": 1,
+            "title": "Masked Context"
+          },
+          "noun_lemma": {
+            "type": "string",
+            "maxLength": 80,
+            "minLength": 1,
+            "title": "Noun Lemma"
+          },
+          "verb_lemma": {
+            "type": "string",
+            "maxLength": 80,
+            "minLength": 1,
+            "title": "Verb Lemma"
+          },
+          "relation": {
+            "type": "string",
+            "pattern": "^(obj|iobj|nsubj|obl)(:[a-z]+)?$",
+            "title": "Relation",
+            "default": "obj"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "masked_context",
+          "noun_lemma",
+          "verb_lemma"
+        ],
+        "title": "PredictInput"
+      },
+      "Prediction": {
+        "properties": {
+          "label": {
+            "type": "string",
+            "enum": [
+              "BN",
+              "YI_CL_N"
+            ],
+            "title": "Label"
+          },
+          "yi_score_uncalibrated": {
+            "type": "number",
+            "title": "Yi Score Uncalibrated"
+          },
+          "decision_threshold": {
+            "type": "number",
+            "title": "Decision Threshold"
+          },
+          "model_id": {
+            "type": "string",
+            "title": "Model Id"
+          },
+          "input_truncated": {
+            "type": "boolean",
+            "title": "Input Truncated"
+          },
+          "nearest_training_examples": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Nearest Training Examples"
+          },
+          "notice": {
+            "type": "string",
+            "title": "Notice",
+            "default": "Predicts extracted observed form, not indefinite eligibility. Scores are uncalibrated; expert review is required."
+          }
+        },
+        "type": "object",
+        "required": [
+          "label",
+          "yi_score_uncalibrated",
+          "decision_threshold",
+          "model_id",
+          "input_truncated",
+          "nearest_training_examples"
+        ],
+        "title": "Prediction"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

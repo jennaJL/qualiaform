@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "model": "mlp_1729",
+  "real_model_examples_checked": 20,
+  "batch_checked": 4,
+  "prediction_matches_offline_benchmark": true,
+  "nearest_examples_train_only": true,
+  "in_process_TestClient": true,
+  "latency_ms": {
+    "n": 20,
+    "p50": 10.090770956594497,
+    "p95": 13.48269933951089
+  },
+  "latency_scope": "sequential warm/local CPU prototype, 20 requests including first inference, no load or production SLO claim"
+}

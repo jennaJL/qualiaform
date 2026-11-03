@@ -1,0 +1,54 @@
+{
+  "created_date": "2026-10-07",
+  "dev_revision_reason": "Unconstrained 4-row structured pilot violated schema in 4/4 responses; adopt enum-constrained decoding before any test inference.",
+  "device": "cpu",
+  "evaluation": "complete original test split, 913 examples, weak observed-form reference; no test tuning",
+  "fewshot": "4 source-train corpus examples; observed labels; LLM-assisted provisional semantics; NOT Part1 gold",
+  "files": {
+    "corpus_demos.jsonl": "4f2264f4fa3e93eaf2260796ea2d422b300bf390393df330e40261abab8d15e4",
+    "dev_rows.jsonl": "ba4bf743106814fdc1a2ca75b6ac60f7d84a7bbd3273618b4e0c1ff89044122c",
+    "pilot_rows.jsonl": "3b116fa166999a550df293489bed026928ba3c7ea9943d703060f7ab5e59b03e",
+    "train_rows.jsonl": "f24d254f29f32177e63f8c90dc293a68600ca44c54686eb58ad84ae32e6503c0"
+  },
+  "inference": {
+    "batch_size": 4,
+    "decoder": "finite_json_enum_v1",
+    "do_sample": false,
+    "evidence": "fixed empty; no evidence-generation claim",
+    "max_new_tokens": 64,
+    "max_new_tokens_direct": 32,
+    "max_new_tokens_structured": 96,
+    "prompt_version": "local_v2"
+  },
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "name": "local-cpu-v2",
+  "precision": "float32",
+  "seed": 1729,
+  "training": {
+    "alpha": 8,
+    "batch_size": 4,
+    "checkpoint_selection": "final epoch, no test-based selection",
+    "class_counts": {
+      "BN": 128,
+      "YI_CL_N": 128
+    },
+    "dropout": 0,
+    "epochs": 1,
+    "examples": 256,
+    "layers": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "learning_rate": 0.0002,
+    "max_length": 768,
+    "method": "LoRA",
+    "rank": 4,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "validation_examples": 40
+  }
+}
