@@ -1,0 +1,970 @@
+{
+  "annotation_agreement": {
+    "annotate_few": {
+      "accuracy": 0.6064516129032258,
+      "confusion": {
+        "AGENTIVE": {
+          "AGENTIVE": 14,
+          "HAVE": 1,
+          "INVALID": 0,
+          "NONE": 10,
+          "TELIC": 8
+        },
+        "HAVE": {
+          "AGENTIVE": 1,
+          "HAVE": 21,
+          "INVALID": 0,
+          "NONE": 4,
+          "TELIC": 0
+        },
+        "NONE": {
+          "AGENTIVE": 2,
+          "HAVE": 11,
+          "INVALID": 0,
+          "NONE": 45,
+          "TELIC": 13
+        },
+        "TELIC": {
+          "AGENTIVE": 0,
+          "HAVE": 2,
+          "INVALID": 0,
+          "NONE": 9,
+          "TELIC": 14
+        }
+      },
+      "invalid": 0,
+      "kappa": 0.43890570292564235,
+      "macro_f1": 0.5906683178047726,
+      "n": 155,
+      "per_label": {
+        "AGENTIVE": {
+          "f1": 0.5599999999999999,
+          "precision": 0.8235294117647058,
+          "recall": 0.42424242424242425,
+          "support": 33
+        },
+        "HAVE": {
+          "f1": 0.6885245901639345,
+          "precision": 0.6,
+          "recall": 0.8076923076923077,
+          "support": 26
+        },
+        "NONE": {
+          "f1": 0.6474820143884893,
+          "precision": 0.6617647058823529,
+          "recall": 0.6338028169014085,
+          "support": 71
+        },
+        "TELIC": {
+          "f1": 0.4666666666666667,
+          "precision": 0.4,
+          "recall": 0.56,
+          "support": 25
+        }
+      },
+      "predicted_distribution": {
+        "AGENTIVE": 17,
+        "HAVE": 35,
+        "NONE": 68,
+        "TELIC": 35
+      },
+      "typicality_accuracy": 0.7548387096774194,
+      "typicality_kappa": 0.4654202214557997
+    },
+    "annotate_zero": {
+      "accuracy": 0.6,
+      "confusion": {
+        "AGENTIVE": {
+          "AGENTIVE": 13,
+          "HAVE": 0,
+          "INVALID": 0,
+          "NONE": 5,
+          "TELIC": 15
+        },
+        "HAVE": {
+          "AGENTIVE": 2,
+          "HAVE": 16,
+          "INVALID": 0,
+          "NONE": 8,
+          "TELIC": 0
+        },
+        "NONE": {
+          "AGENTIVE": 5,
+          "HAVE": 1,
+          "INVALID": 0,
+          "NONE": 47,
+          "TELIC": 18
+        },
+        "TELIC": {
+          "AGENTIVE": 4,
+          "HAVE": 1,
+          "INVALID": 0,
+          "NONE": 3,
+          "TELIC": 17
+        }
+      },
+      "invalid": 0,
+      "kappa": 0.43609904940734656,
+      "macro_f1": 0.5845597371991716,
+      "n": 155,
+      "per_label": {
+        "AGENTIVE": {
+          "f1": 0.45614035087719296,
+          "precision": 0.5416666666666666,
+          "recall": 0.3939393939393939,
+          "support": 33
+        },
+        "HAVE": {
+          "f1": 0.7272727272727274,
+          "precision": 0.8888888888888888,
+          "recall": 0.6153846153846154,
+          "support": 26
+        },
+        "NONE": {
+          "f1": 0.7014925373134329,
+          "precision": 0.746031746031746,
+          "recall": 0.6619718309859155,
+          "support": 71
+        },
+        "TELIC": {
+          "f1": 0.4533333333333334,
+          "precision": 0.34,
+          "recall": 0.68,
+          "support": 25
+        }
+      },
+      "predicted_distribution": {
+        "AGENTIVE": 24,
+        "HAVE": 18,
+        "NONE": 63,
+        "TELIC": 50
+      },
+      "typicality_accuracy": 0.7806451612903226,
+      "typicality_kappa": 0.5562478949141124
+    },
+    "structured_few": {
+      "accuracy": 0.6129032258064516,
+      "confusion": {
+        "AGENTIVE": {
+          "AGENTIVE": 16,
+          "HAVE": 0,
+          "INVALID": 0,
+          "NONE": 6,
+          "TELIC": 11
+        },
+        "HAVE": {
+          "AGENTIVE": 1,
+          "HAVE": 17,
+          "INVALID": 0,
+          "NONE": 8,
+          "TELIC": 0
+        },
+        "NONE": {
+          "AGENTIVE": 5,
+          "HAVE": 2,
+          "INVALID": 0,
+          "NONE": 44,
+          "TELIC": 20
+        },
+        "TELIC": {
+          "AGENTIVE": 2,
+          "HAVE": 0,
+          "INVALID": 0,
+          "NONE": 5,
+          "TELIC": 18
+        }
+      },
+      "invalid": 0,
+      "kappa": 0.4542573792617804,
+      "macro_f1": 0.6150404921811049,
+      "n": 155,
+      "per_label": {
+        "AGENTIVE": {
+          "f1": 0.5614035087719298,
+          "precision": 0.6666666666666666,
+          "recall": 0.48484848484848486,
+          "support": 33
+        },
+        "HAVE": {
+          "f1": 0.7555555555555555,
+          "precision": 0.8947368421052632,
+          "recall": 0.6538461538461539,
+          "support": 26
+        },
+        "NONE": {
+          "f1": 0.6567164179104478,
+          "precision": 0.6984126984126984,
+          "recall": 0.6197183098591549,
+          "support": 71
+        },
+        "TELIC": {
+          "f1": 0.4864864864864865,
+          "precision": 0.3673469387755102,
+          "recall": 0.72,
+          "support": 25
+        }
+      },
+      "predicted_distribution": {
+        "AGENTIVE": 24,
+        "HAVE": 19,
+        "NONE": 63,
+        "TELIC": 49
+      },
+      "typicality_accuracy": 0.7612903225806451,
+      "typicality_kappa": 0.5155022387429247
+    },
+    "structured_zero": {
+      "accuracy": 0.5419354838709678,
+      "confusion": {
+        "AGENTIVE": {
+          "AGENTIVE": 18,
+          "HAVE": 0,
+          "INVALID": 0,
+          "NONE": 6,
+          "TELIC": 9
+        },
+        "HAVE": {
+          "AGENTIVE": 2,
+          "HAVE": 20,
+          "INVALID": 0,
+          "NONE": 4,
+          "TELIC": 0
+        },
+        "NONE": {
+          "AGENTIVE": 10,
+          "HAVE": 15,
+          "INVALID": 0,
+          "NONE": 34,
+          "TELIC": 12
+        },
+        "TELIC": {
+          "AGENTIVE": 7,
+          "HAVE": 2,
+          "INVALID": 0,
+          "NONE": 4,
+          "TELIC": 12
+        }
+      },
+      "invalid": 0,
+      "kappa": 0.3750354932136976,
+      "macro_f1": 0.5336070060207991,
+      "n": 155,
+      "per_label": {
+        "AGENTIVE": {
+          "f1": 0.5142857142857143,
+          "precision": 0.4864864864864865,
+          "recall": 0.5454545454545454,
+          "support": 33
+        },
+        "HAVE": {
+          "f1": 0.6349206349206349,
+          "precision": 0.5405405405405406,
+          "recall": 0.7692307692307693,
+          "support": 26
+        },
+        "NONE": {
+          "f1": 0.5714285714285715,
+          "precision": 0.7083333333333334,
+          "recall": 0.4788732394366197,
+          "support": 71
+        },
+        "TELIC": {
+          "f1": 0.41379310344827586,
+          "precision": 0.36363636363636365,
+          "recall": 0.48,
+          "support": 25
+        }
+      },
+      "predicted_distribution": {
+        "AGENTIVE": 37,
+        "HAVE": 37,
+        "NONE": 48,
+        "TELIC": 33
+      },
+      "typicality_accuracy": 0.7677419354838709,
+      "typicality_kappa": 0.5238907849829351
+    }
+  },
+  "bootstrap": {
+    "balanced_accuracy_ci95": {
+      "LLM direct_few": [
+        0.46062111531846844,
+        0.6565805591467353
+      ],
+      "LLM direct_reason_zero": [
+        0.4276604683195592,
+        0.6142173221878462
+      ],
+      "LLM direct_zero": [
+        0.42702780112044814,
+        0.5737928217763283
+      ],
+      "LLM structured_few": [
+        0.41363623340132477,
+        0.5932699335827537
+      ],
+      "LLM structured_zero": [
+        0.3946556376573618,
+        0.5453337608795236
+      ],
+      "logreg: context + LLM qualia (annotate_few)": [
+        0.5347079547041914,
+        0.7280166666666665
+      ],
+      "logreg: context + LLM qualia (annotate_zero)": [
+        0.5358837393896196,
+        0.7279803259036437
+      ],
+      "logreg: context + LLM qualia (structured_few)": [
+        0.5460606708799223,
+        0.7426900441792602
+      ],
+      "logreg: context + LLM qualia (structured_zero)": [
+        0.5362846751603867,
+        0.7298387096774194
+      ],
+      "logreg: context + gold qualia (oracle)": [
+        0.6159455517744288,
+        0.798672015846291
+      ],
+      "logreg: context only": [
+        0.5661517857142858,
+        0.7481807455639191
+      ],
+      "majority (always YI_CL_N)": [
+        0.5,
+        0.5
+      ],
+      "rule: LLM qualia licenses BN (annotate_few)": [
+        0.4573127177700348,
+        0.6440081672203766
+      ],
+      "rule: LLM qualia licenses BN (annotate_zero)": [
+        0.46234504353106187,
+        0.6444502314814815
+      ],
+      "rule: LLM qualia licenses BN (structured_few)": [
+        0.3735569382153273,
+        0.5660572735191638
+      ],
+      "rule: LLM qualia licenses BN (structured_zero)": [
+        0.43867823575191567,
+        0.617997268907563
+      ],
+      "rule: gold qualia licenses BN (oracle)": [
+        0.5558796989958827,
+        0.7292473284589426
+      ]
+    },
+    "paired_differences": {
+      "LLM structured_few  minus  LLM direct_few": {
+        "ci95": [
+          -0.19528767209801695,
+          0.0769351119894597
+        ],
+        "observed": -0.06048387096774188,
+        "share_of_resamples_above_zero": 0.186
+      },
+      "LLM structured_zero  minus  LLM direct_reason_zero": {
+        "ci95": [
+          -0.17953333333333346,
+          0.06887386742434622
+        ],
+        "observed": -0.052419354838709686,
+        "share_of_resamples_above_zero": 0.1985
+      },
+      "LLM structured_zero  minus  LLM direct_zero": {
+        "ci95": [
+          -0.13259832158669918,
+          0.05390216095380031
+        ],
+        "observed": -0.036290322580645185,
+        "share_of_resamples_above_zero": 0.2065
+      },
+      "logreg: context + LLM qualia (annotate_few)  minus  LLM direct_few": {
+        "ci95": [
+          -0.05960783947852907,
+          0.20295008904496037
+        ],
+        "observed": 0.07258064516129037,
+        "share_of_resamples_above_zero": 0.8755
+      },
+      "logreg: context + LLM qualia (annotate_few)  minus  logreg: context only": {
+        "ci95": [
+          -0.08035722963778913,
+          0.04090762311487616
+        ],
+        "observed": -0.024193548387096753,
+        "share_of_resamples_above_zero": 0.209
+      },
+      "logreg: context + gold qualia (oracle)  minus  logreg: context + LLM qualia (annotate_few)": {
+        "ci95": [
+          -0.006953622984626897,
+          0.16604779411764692
+        ],
+        "observed": 0.0766129032258065,
+        "share_of_resamples_above_zero": 0.9645
+      },
+      "logreg: context + gold qualia (oracle)  minus  logreg: context only": {
+        "ci95": [
+          -0.03681291363791106,
+          0.14919354838709675
+        ],
+        "observed": 0.05241935483870974,
+        "share_of_resamples_above_zero": 0.868
+      }
+    }
+  },
+  "form_prediction": {
+    "LLM direct_few": {
+      "accuracy": 0.49032258064516127,
+      "balanced_accuracy": 0.5604838709677419,
+      "bn_precision": 0.23333333333333334,
+      "bn_recall": 0.6774193548387096,
+      "confusion": {
+        "BN": {
+          "BN": 21,
+          "INVALID": 0,
+          "YI_CL_N": 10
+        },
+        "YI_CL_N": {
+          "BN": 69,
+          "INVALID": 0,
+          "YI_CL_N": 55
+        }
+      },
+      "invalid": 0,
+      "kind": "llm",
+      "macro_f1": 0.4645590100135555,
+      "yi_recall": 0.4435483870967742
+    },
+    "LLM direct_reason_zero": {
+      "accuracy": 0.44516129032258067,
+      "balanced_accuracy": 0.5201612903225806,
+      "bn_precision": 0.21052631578947367,
+      "bn_recall": 0.6451612903225806,
+      "confusion": {
+        "BN": {
+          "BN": 20,
+          "INVALID": 0,
+          "YI_CL_N": 11
+        },
+        "YI_CL_N": {
+          "BN": 75,
+          "INVALID": 0,
+          "YI_CL_N": 49
+        }
+      },
+      "invalid": 0,
+      "kind": "llm",
+      "macro_f1": 0.42503450655624564,
+      "yi_recall": 0.3951612903225806
+    },
+    "LLM direct_zero": {
+      "accuracy": 0.3032258064516129,
+      "balanced_accuracy": 0.5040322580645161,
+      "bn_precision": 0.20155038759689922,
+      "bn_recall": 0.8387096774193549,
+      "confusion": {
+        "BN": {
+          "BN": 26,
+          "INVALID": 0,
+          "YI_CL_N": 5
+        },
+        "YI_CL_N": {
+          "BN": 103,
+          "INVALID": 0,
+          "YI_CL_N": 21
+        }
+      },
+      "invalid": 0,
+      "kind": "llm",
+      "macro_f1": 0.3025,
+      "yi_recall": 0.1693548387096774
+    },
+    "LLM structured_few": {
+      "accuracy": 0.6258064516129033,
+      "balanced_accuracy": 0.5,
+      "bn_precision": 0.2,
+      "bn_recall": 0.2903225806451613,
+      "confusion": {
+        "BN": {
+          "BN": 9,
+          "INVALID": 0,
+          "YI_CL_N": 22
+        },
+        "YI_CL_N": {
+          "BN": 36,
+          "INVALID": 0,
+          "YI_CL_N": 88
+        }
+      },
+      "invalid": 0,
+      "kind": "llm",
+      "macro_f1": 0.49448942869995505,
+      "yi_recall": 0.7096774193548387
+    },
+    "LLM structured_zero": {
+      "accuracy": 0.6516129032258065,
+      "balanced_accuracy": 0.46774193548387094,
+      "bn_precision": 0.15151515151515152,
+      "bn_recall": 0.16129032258064516,
+      "confusion": {
+        "BN": {
+          "BN": 5,
+          "INVALID": 0,
+          "YI_CL_N": 26
+        },
+        "YI_CL_N": {
+          "BN": 28,
+          "INVALID": 0,
+          "YI_CL_N": 96
+        }
+      },
+      "invalid": 0,
+      "kind": "llm",
+      "macro_f1": 0.4683689024390244,
+      "yi_recall": 0.7741935483870968
+    },
+    "logreg: context + LLM qualia (annotate_few)": {
+      "accuracy": 0.7225806451612903,
+      "balanced_accuracy": 0.6330645161290323,
+      "bn_precision": 0.35714285714285715,
+      "bn_recall": 0.4838709677419355,
+      "confusion": {
+        "BN": {
+          "BN": 15,
+          "INVALID": 0,
+          "YI_CL_N": 16
+        },
+        "YI_CL_N": {
+          "BN": 27,
+          "INVALID": 0,
+          "YI_CL_N": 97
+        }
+      },
+      "invalid": 0,
+      "kind": "pipeline",
+      "macro_f1": 0.6147621524767355,
+      "yi_recall": 0.782258064516129
+    },
+    "logreg: context + LLM qualia (annotate_zero)": {
+      "accuracy": 0.6838709677419355,
+      "balanced_accuracy": 0.6330645161290323,
+      "bn_precision": 0.3269230769230769,
+      "bn_recall": 0.5483870967741935,
+      "confusion": {
+        "BN": {
+          "BN": 17,
+          "INVALID": 0,
+          "YI_CL_N": 14
+        },
+        "YI_CL_N": {
+          "BN": 35,
+          "INVALID": 0,
+          "YI_CL_N": 89
+        }
+      },
+      "invalid": 0,
+      "kind": "pipeline",
+      "macro_f1": 0.5968897616899316,
+      "yi_recall": 0.717741935483871
+    },
+    "logreg: context + LLM qualia (structured_few)": {
+      "accuracy": 0.7419354838709677,
+      "balanced_accuracy": 0.6451612903225806,
+      "bn_precision": 0.38461538461538464,
+      "bn_recall": 0.4838709677419355,
+      "confusion": {
+        "BN": {
+          "BN": 15,
+          "INVALID": 0,
+          "YI_CL_N": 16
+        },
+        "YI_CL_N": {
+          "BN": 24,
+          "INVALID": 0,
+          "YI_CL_N": 100
+        }
+      },
+      "invalid": 0,
+      "kind": "pipeline",
+      "macro_f1": 0.6309523809523809,
+      "yi_recall": 0.8064516129032258
+    },
+    "logreg: context + LLM qualia (structured_zero)": {
+      "accuracy": 0.6838709677419355,
+      "balanced_accuracy": 0.6330645161290323,
+      "bn_precision": 0.3269230769230769,
+      "bn_recall": 0.5483870967741935,
+      "confusion": {
+        "BN": {
+          "BN": 17,
+          "INVALID": 0,
+          "YI_CL_N": 14
+        },
+        "YI_CL_N": {
+          "BN": 35,
+          "INVALID": 0,
+          "YI_CL_N": 89
+        }
+      },
+      "invalid": 0,
+      "kind": "pipeline",
+      "macro_f1": 0.5968897616899316,
+      "yi_recall": 0.717741935483871
+    },
+    "logreg: context + gold qualia (oracle)": {
+      "accuracy": 0.7096774193548387,
+      "balanced_accuracy": 0.7096774193548387,
+      "bn_precision": 0.3793103448275862,
+      "bn_recall": 0.7096774193548387,
+      "confusion": {
+        "BN": {
+          "BN": 22,
+          "INVALID": 0,
+          "YI_CL_N": 9
+        },
+        "YI_CL_N": {
+          "BN": 36,
+          "INVALID": 0,
+          "YI_CL_N": 88
+        }
+      },
+      "invalid": 0,
+      "kind": "oracle",
+      "macro_f1": 0.6453810564848238,
+      "yi_recall": 0.7096774193548387
+    },
+    "logreg: context only": {
+      "accuracy": 0.8193548387096774,
+      "balanced_accuracy": 0.657258064516129,
+      "bn_precision": 0.5714285714285714,
+      "bn_recall": 0.3870967741935484,
+      "confusion": {
+        "BN": {
+          "BN": 12,
+          "INVALID": 0,
+          "YI_CL_N": 19
+        },
+        "YI_CL_N": {
+          "BN": 9,
+          "INVALID": 0,
+          "YI_CL_N": 115
+        }
+      },
+      "invalid": 0,
+      "kind": "classifier",
+      "macro_f1": 0.6765056648777579,
+      "yi_recall": 0.9274193548387096
+    },
+    "majority (always YI_CL_N)": {
+      "accuracy": 0.8,
+      "balanced_accuracy": 0.5,
+      "bn_precision": 0.0,
+      "bn_recall": 0.0,
+      "confusion": {
+        "BN": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 31
+        },
+        "YI_CL_N": {
+          "BN": 0,
+          "INVALID": 0,
+          "YI_CL_N": 124
+        }
+      },
+      "invalid": 0,
+      "kind": "baseline",
+      "macro_f1": 0.4444444444444445,
+      "yi_recall": 1.0
+    },
+    "rule: LLM qualia licenses BN (annotate_few)": {
+      "accuracy": 0.4967741935483871,
+      "balanced_accuracy": 0.5524193548387096,
+      "bn_precision": 0.22988505747126436,
+      "bn_recall": 0.6451612903225806,
+      "confusion": {
+        "BN": {
+          "BN": 20,
+          "INVALID": 0,
+          "YI_CL_N": 11
+        },
+        "YI_CL_N": {
+          "BN": 67,
+          "INVALID": 0,
+          "YI_CL_N": 57
+        }
+      },
+      "invalid": 0,
+      "kind": "pipeline",
+      "macro_f1": 0.4663665254237288,
+      "yi_recall": 0.4596774193548387
+    },
+    "rule: LLM qualia licenses BN (annotate_zero)": {
+      "accuracy": 0.4774193548387097,
+      "balanced_accuracy": 0.5524193548387096,
+      "bn_precision": 0.22826086956521738,
+      "bn_recall": 0.6774193548387096,
+      "confusion": {
+        "BN": {
+          "BN": 21,
+          "INVALID": 0,
+          "YI_CL_N": 10
+        },
+        "YI_CL_N": {
+          "BN": 71,
+          "INVALID": 0,
+          "YI_CL_N": 53
+        }
+      },
+      "invalid": 0,
+      "kind": "pipeline",
+      "macro_f1": 0.4541541672101213,
+      "yi_recall": 0.4274193548387097
+    },
+    "rule: LLM qualia licenses BN (structured_few)": {
+      "accuracy": 0.4258064516129032,
+      "balanced_accuracy": 0.47177419354838707,
+      "bn_precision": 0.18478260869565216,
+      "bn_recall": 0.5483870967741935,
+      "confusion": {
+        "BN": {
+          "BN": 17,
+          "INVALID": 0,
+          "YI_CL_N": 14
+        },
+        "YI_CL_N": {
+          "BN": 75,
+          "INVALID": 0,
+          "YI_CL_N": 49
+        }
+      },
+      "invalid": 0,
+      "kind": "pipeline",
+      "macro_f1": 0.4002434676753185,
+      "yi_recall": 0.3951612903225806
+    },
+    "rule: LLM qualia licenses BN (structured_zero)": {
+      "accuracy": 0.4064516129032258,
+      "balanced_accuracy": 0.532258064516129,
+      "bn_precision": 0.21495327102803738,
+      "bn_recall": 0.7419354838709677,
+      "confusion": {
+        "BN": {
+          "BN": 23,
+          "INVALID": 0,
+          "YI_CL_N": 8
+        },
+        "YI_CL_N": {
+          "BN": 84,
+          "INVALID": 0,
+          "YI_CL_N": 40
+        }
+      },
+      "invalid": 0,
+      "kind": "pipeline",
+      "macro_f1": 0.3992248062015503,
+      "yi_recall": 0.3225806451612903
+    },
+    "rule: gold qualia licenses BN (oracle)": {
+      "accuracy": 0.567741935483871,
+      "balanced_accuracy": 0.6451612903225806,
+      "bn_precision": 0.2857142857142857,
+      "bn_recall": 0.7741935483870968,
+      "confusion": {
+        "BN": {
+          "BN": 24,
+          "INVALID": 0,
+          "YI_CL_N": 7
+        },
+        "YI_CL_N": {
+          "BN": 60,
+          "INVALID": 0,
+          "YI_CL_N": 64
+        }
+      },
+      "invalid": 0,
+      "kind": "oracle",
+      "macro_f1": 0.5369007803790411,
+      "yi_recall": 0.5161290322580645
+    }
+  },
+  "forms": {
+    "BN": 31,
+    "YI_CL_N": 124
+  },
+  "licensing": {
+    "annotate_few": {
+      "AGENTIVE": {
+        "bn": 5,
+        "bn_rate": 0.29411764705882354,
+        "n": 17
+      },
+      "HAVE": {
+        "bn": 7,
+        "bn_rate": 0.2,
+        "n": 35
+      },
+      "NONE": {
+        "bn": 11,
+        "bn_rate": 0.16176470588235295,
+        "n": 68
+      },
+      "TELIC": {
+        "bn": 8,
+        "bn_rate": 0.22857142857142856,
+        "n": 35
+      },
+      "any match (TELIC/AGENTIVE/HAVE)": {
+        "bn": 20,
+        "bn_rate": 0.22988505747126436,
+        "n": 87
+      },
+      "share of BN with a match": {
+        "bn_rate": null,
+        "n": 31,
+        "value": 0.6451612903225806
+      }
+    },
+    "annotate_zero": {
+      "AGENTIVE": {
+        "bn": 7,
+        "bn_rate": 0.2916666666666667,
+        "n": 24
+      },
+      "HAVE": {
+        "bn": 3,
+        "bn_rate": 0.16666666666666666,
+        "n": 18
+      },
+      "NONE": {
+        "bn": 10,
+        "bn_rate": 0.15873015873015872,
+        "n": 63
+      },
+      "TELIC": {
+        "bn": 11,
+        "bn_rate": 0.22,
+        "n": 50
+      },
+      "any match (TELIC/AGENTIVE/HAVE)": {
+        "bn": 21,
+        "bn_rate": 0.22826086956521738,
+        "n": 92
+      },
+      "share of BN with a match": {
+        "bn_rate": null,
+        "n": 31,
+        "value": 0.6774193548387096
+      }
+    },
+    "gold": {
+      "AGENTIVE": {
+        "bn": 10,
+        "bn_rate": 0.30303030303030304,
+        "n": 33
+      },
+      "HAVE": {
+        "bn": 8,
+        "bn_rate": 0.3076923076923077,
+        "n": 26
+      },
+      "NONE": {
+        "bn": 7,
+        "bn_rate": 0.09859154929577464,
+        "n": 71
+      },
+      "TELIC": {
+        "bn": 6,
+        "bn_rate": 0.24,
+        "n": 25
+      },
+      "any match (TELIC/AGENTIVE/HAVE)": {
+        "bn": 24,
+        "bn_rate": 0.2857142857142857,
+        "n": 84
+      },
+      "share of BN with a match": {
+        "bn_rate": null,
+        "n": 31,
+        "value": 0.7741935483870968
+      }
+    },
+    "structured_few": {
+      "AGENTIVE": {
+        "bn": 6,
+        "bn_rate": 0.25,
+        "n": 24
+      },
+      "HAVE": {
+        "bn": 4,
+        "bn_rate": 0.21052631578947367,
+        "n": 19
+      },
+      "NONE": {
+        "bn": 14,
+        "bn_rate": 0.2222222222222222,
+        "n": 63
+      },
+      "TELIC": {
+        "bn": 7,
+        "bn_rate": 0.14285714285714285,
+        "n": 49
+      },
+      "any match (TELIC/AGENTIVE/HAVE)": {
+        "bn": 17,
+        "bn_rate": 0.18478260869565216,
+        "n": 92
+      },
+      "share of BN with a match": {
+        "bn_rate": null,
+        "n": 31,
+        "value": 0.5483870967741935
+      }
+    },
+    "structured_zero": {
+      "AGENTIVE": {
+        "bn": 10,
+        "bn_rate": 0.2702702702702703,
+        "n": 37
+      },
+      "HAVE": {
+        "bn": 6,
+        "bn_rate": 0.16216216216216217,
+        "n": 37
+      },
+      "NONE": {
+        "bn": 8,
+        "bn_rate": 0.16666666666666666,
+        "n": 48
+      },
+      "TELIC": {
+        "bn": 7,
+        "bn_rate": 0.21212121212121213,
+        "n": 33
+      },
+      "any match (TELIC/AGENTIVE/HAVE)": {
+        "bn": 23,
+        "bn_rate": 0.21495327102803738,
+        "n": 107
+      },
+      "share of BN with a match": {
+        "bn_rate": null,
+        "n": 31,
+        "value": 0.7419354838709677
+      }
+    }
+  },
+  "model": {
+    "backend": "ollama",
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "family": "qwen2",
+    "model": "qwen2.5:7b-instruct",
+    "parameter_size": "7.6B",
+    "quantization": "Q4_K_M"
+  },
+  "n_items": 155,
+  "protocol": "Part 1 grouped folds (seed 42); out-of-fold logistic regression (balanced, C=1, threshold 0.5); LLM few-shot demos drawn only from the other four folds"
+}

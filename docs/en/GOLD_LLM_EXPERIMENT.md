@@ -107,6 +107,8 @@ model). Each model gets its own folder.
 
 ## What to look at afterwards
 
+Results for `qwen2.5:7b-instruct` are in [RESULTS.md, section 5](RESULTS.md#5-part-3-llm-annotation-on-the-gold-set).
+
 - **κ for `annotate_few`.** Conventionally, 0.4–0.6 is moderate and 0.6–0.8
   substantial. The confusion matrix shows which distinctions the model
   misses; TELIC vs. NONE (use vs. mere handling) is the most likely
