@@ -2,9 +2,9 @@
 
 **Can explicit linguistic structure help a model predict Mandarin noun-phrase form?**
 
-> **Status (Oct 2026):** Parts 1 and 2 complete with results. Part 3 (LLM
-> annotation on the expert gold set) is built and tested; the full 7B run is
-> next. See [Roadmap](#roadmap).
+> **Status (Nov 2026, v3.1.0):** Parts 1–3 complete with results, including
+> the negative ones. Next: an open, double-annotated parallel-corpus set. See
+> [Roadmap](#roadmap).
 
 QualiaForm is an NLP evaluation project built on my PhD research on Mandarin
 nominal expressions. Mandarin can express "a book" as a bare noun (`看书`,
@@ -98,9 +98,34 @@ a test of the qualia hypothesis, and its scores are not comparable with
 Part 1. Separating form from interpretation is the next step (see Roadmap).
 [Results and analysis →](docs/en/RESULTS.md)
 
-**Part 3 (LLM annotation on the gold set).** The pipeline is built and
-tested, and is ready to run on a local 7B model. Results will be added here.
-[Design and how to run →](docs/en/GOLD_LLM_EXPERIMENT.md)
+**Part 3 (qwen2.5:7b-instruct on the gold set, 155 items, 31 BN).** The
+answer to the project's question is mostly negative for this model, and I
+report it in full.
+
+| System | Balanced acc. | 95% CI |
+|---|---:|---|
+| Majority (always YI-CL-N) | 0.500 | – |
+| LLM, direct prediction (3 prompts) | 0.504–0.560 | – |
+| LLM, annotate qualia then predict (2 prompts) | 0.468–0.500 | – |
+| Logistic regression: context features only | 0.657 | [0.566, 0.748] |
+| Logistic regression: context + **LLM** qualia labels | 0.633–0.645 | – |
+| Logistic regression: context + **gold** qualia labels | **0.710** | [0.616, 0.799] |
+
+- The LLM reproduces my qualia annotation only moderately: Cohen's κ
+  0.38–0.45 across four prompts. HAVE is the easiest relation; TELIC is
+  over-used, mostly for items I labelled NONE.
+- Asking the LLM to annotate first did **not** beat direct prediction
+  (Δ −0.04 to −0.06), and both are close to chance.
+- The LLM's labels do not improve the classifier over context alone, and they
+  do not reproduce the licensing asymmetry. The gold labels add +0.05 (the
+  interval includes zero); the gap between gold and LLM labels (+0.08, above
+  zero in 96% of bootstrap resamples) is what annotation errors cost.
+- With 31 BN items, intervals are about ±0.09, so only large differences are
+  detectable.
+
+[Full Part 3 results →](docs/en/RESULTS.md#5-part-3-llm-annotation-on-the-gold-set) ·
+[Generated report](reports/gold_llm/qwen2.5_7b-instruct/report.md) ·
+[Design and how to run](docs/en/GOLD_LLM_EXPERIMENT.md)
 
 ## Documentation
 
@@ -170,7 +195,10 @@ Nothing calls a paid API. All models run locally on a CPU or a laptop GPU.
 - The UD test set was used for the earlier LLM experiments and then reused
   for the supervised models, so it is not a fresh held-out set.
 - The gold set is small (156 items, one novel, one annotator). No
-  inter-annotator agreement has been measured yet.
+  inter-annotator agreement has been measured yet, so Part 3 compares the LLM
+  with one expert rather than with a consensus.
+- Part 3 uses one quantised 7B model and one prompt set. Other models can be
+  run with `--model`.
 - Docker and CI files are provided, but the service has not been deployed to
   a cloud platform.
 
@@ -192,7 +220,10 @@ assistance and reviewed by me.
 
 - [x] Part 2: UD extraction, supervised baselines, small-LLM prompting and LoRA
 - [x] Part 3: gold-set LLM pipeline (built and tested with a mock model)
-- [ ] Part 3: full run with a local 7B model; results added to this README
+- [x] Part 3: full run with a local 7B model (qwen2.5:7b-instruct); results
+      added to this README, including negative results
+- [ ] Part 3 error analysis: LLM–gold disagreements (TELIC vs. NONE), kept
+      private because it quotes the source sentences
 - [ ] Open parallel-corpus extension of Part 1: about 500 English–Mandarin
       items (starting with UD Chinese/English PUD, CC BY-SA), annotated in
       separate layers for Mandarin form, Mandarin referential interpretation
