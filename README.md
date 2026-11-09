@@ -1,9 +1,52 @@
 # QualiaForm
 
-**Can explicit linguistic structure help a model predict Mandarin noun-phrase form?**
+**Question.** Mandarin can say "read a book" with a bare noun (`看书`) or with
+"one + classifier" (`看一本书`). Does knowing how the verb relates to the noun's
+meaning (its typical use, creation or possession, called *qualia*) help a model
+predict which form is used, and can an LLM supply that knowledge itself?
+
+**Method.** 155 sentences I annotated by hand in earlier research. I compare a simple
+classifier with and without my labels, and a local 7B LLM that either predicts
+the form directly or first annotates the relation itself. Balanced accuracy
+(chance = 0.50), with 95% bootstrap intervals.
+
+**Main result.** My expert labels gave the best score (0.71, against 0.66
+without them). The LLM matched my labels only moderately (Cohen's κ 0.44), its
+labels added nothing, and asking it to annotate first did not beat asking
+directly: both stayed near chance (0.50–0.56).
+
+| System (qwen2.5:7b-instruct, few-shot) | Balanced acc. | 95% CI |
+|---|---:|---|
+| Always predict the majority form | 0.50 | – |
+| LLM: predict form directly | 0.56 | [0.46, 0.66] |
+| LLM: annotate qualia, then predict | 0.50 | [0.41, 0.59] |
+| Classifier: context features only | 0.66 | [0.57, 0.75] |
+| Classifier: context + LLM qualia labels | 0.63 | [0.53, 0.73] |
+| Classifier: context + **expert** qualia labels | **0.71** | [0.62, 0.80] |
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/part3_balanced_accuracy_dark.svg">
+  <img alt="Dot-and-interval chart of balanced accuracy: the two LLM systems sit near chance (0.56 and 0.50); the classifier scores 0.66 with context only, 0.63 with LLM labels and 0.71 with expert labels." src="docs/img/part3_balanced_accuracy.svg" width="760">
+</picture>
+
+With 31 bare-noun items the intervals are wide (about ±0.09), so the
+expert-label gain is a consistent direction, not yet an established effect.
+[All results, including negative ones →](docs/en/RESULTS.md)
+
+**Quick start** (Python 3.10+, no private data needed)
+
+```bash
+git clone https://github.com/jennaJL/qualiaform && cd qualiaform
+python3 -m pip install numpy scikit-learn fastapi httpx
+make test      # 68 tests (3 skip without the private gold data)
+make verify    # corpus snapshot: hashes + byte-identical re-extraction
+less reports/gold_llm/qwen2.5_7b-instruct/report.md   # the Part 3 report
+```
 
 > **Status (Nov 2026, v3.1.0):** Parts 1–3 complete with results, including
 > the negative ones.
+
+## Background
 
 QualiaForm is an NLP evaluation project built on my own research on Mandarin
 nominal expressions. Mandarin can express "a book" as a bare noun (`看书`,
@@ -99,16 +142,7 @@ Part 1. Separating form from interpretation is left for future work.
 
 **Part 3 (qwen2.5:7b-instruct on the gold set, 155 items, 31 BN).** The
 answer to the project's question is mostly negative for this model, and I
-report it in full.
-
-| System | Balanced acc. | 95% CI |
-|---|---:|---|
-| Majority (always YI-CL-N) | 0.500 | – |
-| LLM, direct prediction (3 prompts) | 0.504–0.560 | – |
-| LLM, annotate qualia then predict (2 prompts) | 0.468–0.500 | – |
-| Logistic regression: context features only | 0.657 | [0.566, 0.748] |
-| Logistic regression: context + **LLM** qualia labels | 0.633–0.645 | – |
-| Logistic regression: context + **gold** qualia labels | **0.710** | [0.616, 0.799] |
+report it in full. The headline table and chart are [at the top](#qualiaform).
 
 - The LLM reproduces my qualia annotation only moderately: Cohen's κ
   0.38–0.45 across four prompts. HAVE is the easiest relation; TELIC is
@@ -151,7 +185,7 @@ report it in full.
   automated tests, ruff/black, CI configuration, resumable LLM runs, and
   pinned model revisions with SHA-256 checks.
 
-## Quick start
+## Reproducing the experiments
 
 ```bash
 make test                      # 68 tests (some skip without optional deps / private data)
